@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(MondiaThin.otf);
+}
+
+.main {
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  overflow: hidden;
+  max-width: 100%;
+  height: 793px;
+  background: #7dd9ca;
+}
+
+.header-heading {
+  font-family: "myFirstFont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  text-align: left;
+  /* or 72px */
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+  color: #303030;
+  margin-bottom: 5rem;
+}
+
+.header-para {
+  font-family: "Manrope";
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.learn-more {
+  padding: 12px 30px;
+  gap: 10px;
+  width: 136px;
+  height: 38px;
+  background: #FDE9B0;
+  border-radius: 36px;
+  text-decoration: none;
+  color: #303030;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+
+.sliderDiv {
+  display: flex;
+  justify-content: end;
+}
+
+.sliderParagraph {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.section2Heading {
+  font-family: "Mondia";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.section2Div {
+  margin-top: 25%;
+}
+
+.section2Paragraph {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #8C8C8C;
+}
+
+.col2Div {
+  background-color: #B3F6EC;
+  padding-bottom: 12%;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.imgTag {
+  margin-top: -45%;
+}
+
+.spanText {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.section3 {
+  margin-top: 5%;
+}
+
+.section3Heading {
+  font-family: "Mondia";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.section3Paragraph {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #8C8C8C;
+}
+
+.section3ImgDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.section4Heading {
+  font-family: "Mondia";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.imageTag {
+  position: absolute;
+  width: 956px;
+  height: 768.63px;
+  left: 0px;
+}
+
+.section5 {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  left: 0px;
+  top: 2870px;
+  background-color: #7DD9CA;
+  overflow: hidden;
+}
+
+.section5Heading {
+  font-family: "Mondia";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.logoImg {
+  position: absolute;
+  width: 144px;
+  height: 45.56px;
+  left: 120px;
+  top: 3180px;
+}
+
+.section5Paragraph {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #F1F1F1;
+}
+
+.section6 {
+  position: absolute;
+  top: 3366px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slideDiv {
+  background-color: #7DD9CA;
+  padding-bottom: 70px;
+}
+
+.slideTitle {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cardBodyText {
+  font-family: "Manrope";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cardPrice {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
