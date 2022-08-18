@@ -3,6 +3,20 @@
     height: 620px;
 }
 
+@media only screen and (max-width: 600px) {
+    .footerDiv {
+        height: auto;
+    }
+
+    .footerForm {
+        width: 100%;
+    }
+}
+
+.footerForm {
+    width: 100%;
+}
+
 .footerCol1Heading {
     font-family: "Mondia";
     font-size: 30px;
@@ -51,4 +65,15 @@
     letter-spacing: 0em;
     text-align: left;
     color: #D1D1D1;
+}
+
+.submitBtn {
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #D1D1D1;
+    color: #323232;
 }

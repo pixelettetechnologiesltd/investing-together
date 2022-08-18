@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footerDiv'>
             <Container fluid>
                 <Row className=''>
-                    <Col style={{ display: "grid", justifyContent: "center" }}>
+                    <Col sm={12} md={6} style={{ display: "grid", justifyContent: "center" }}>
                         <div style={{ marginTop: "20%" }}>
                             <h2 className='footerCol1Heading'>
                                 We’d love to have you join us!
@@ -38,15 +38,14 @@ const Footer = () => {
                             </p>
                         </div>
                     </Col>
-                    <Col >
-                        <div style={{ marginLeft: "20%" }}>
-
-                            <div style={{ marginTop: "10%" }}>
+                    <Col sm={12} md={6} style={{ display: "grid", justifyContent: "center" }}>
+                        <div >
+                            <div style={{ marginTop: "35%" }}>
                                 <h2 className='footerCol2Heading'>
                                     Contact us
                                 </h2>
                             </div>
-                            <Form style={{ width: "50%" }}>
+                            <Form className='footerForm'>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label className='footerCol1Paragraph'>Name</Form.Label>
                                     <Form.Control type="text" name='name' placeholder="Sam Davis" />
@@ -62,7 +61,7 @@ const Footer = () => {
                                     <Form.Control as="textarea" name='textarea' rows={3} />
                                 </Form.Group>
 
-                                <Button variant="primary" type="submit">
+                                <Button className='submitBtn' type="submit">
                                     Submit
                                 </Button>
                             </Form>

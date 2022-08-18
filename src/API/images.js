@@ -16,6 +16,10 @@ import facebook from "../assets/images/facebook.png"
 import twitter from "../assets/images/twitter.png"
 import insta from "../assets/images/insta.png"
 import youtube from "../assets/images/youtube.png"
+import whitePaper from "../assets/images/whitePaper.png"
+import videoImg from "../assets/images/videoImg.png"
+import farmer from "../assets/images/farmer.png"
+import investor from "../assets/images/investor.png"
 
 export const images = {
 	logo,
@@ -36,4 +40,8 @@ export const images = {
 	twitter,
 	insta,
 	youtube,
+	whitePaper,
+	videoImg,
+	farmer,
+	investor,
 }

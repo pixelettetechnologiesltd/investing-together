@@ -49,7 +49,6 @@
   width: 136px;
   height: 38px;
   background: #FDE9B0;
-  border-radius: 36px;
   text-decoration: none;
   color: #303030;
   font-family: 'Manrope';
@@ -108,8 +107,20 @@
   justify-content: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .imageDiv {
+    margin-top: 5%;
+  }
+}
+
 .imgTag {
   margin-top: -45%;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgTag {
+    margin-top: 0%;
+  }
 }
 
 .spanText {
@@ -167,13 +178,51 @@
 }
 
 .section5 {
-  position: absolute;
   width: 100%;
   height: 400px;
   left: 0px;
-  top: 2870px;
   background-color: #7DD9CA;
-  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .imageTagInvest {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .img2 {
+    margin-top: 8%;
+  }
+
+  .img4 {
+    margin-top: 8%;
+  }
+
+  .downloadBtnDiv {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section5 {
+    height: 800px;
+  }
+
+  .section5 .section5Col1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section5 .section5Col2 div {
+    margin-top: 0%;
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  .section5 .learn-more {
+    transform: translate(55%, -30px);
+  }
 }
 
 .section5Heading {
@@ -186,11 +235,11 @@
 }
 
 .logoImg {
-  position: absolute;
+  /* position: absolute; */
   width: 144px;
   height: 45.56px;
   left: 120px;
-  top: 3180px;
+  /* top: 3180px; */
 }
 
 .section5Paragraph {
@@ -204,8 +253,8 @@
 }
 
 .section6 {
-  position: absolute;
-  top: 3366px;
+  /* position: absolute; */
+  /* top: 3366px; */
   width: 100%;
   overflow: hidden;
 }
@@ -241,3 +290,86 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+.lastSectionParagraph {
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #888888;
+}
+
+.lastSectionParagraph2 {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #8C8C8C;
+}
+
+.downloadBtn {
+  padding: 12px 30px;
+  gap: 10px;
+  width: 136px;
+  height: 38px;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #303030;
+  /* background-color: #D5D5D5; */
+  border: #303030 1px solid;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.footerAboveHeading {
+  font-family: "Mondia";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #303030;
+}
+
+.spanTag {
+  font-family: "Manrope";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2E2E2E;
+}
+
+.farmerBG {
+  background-image: url("../images/farmer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.investorBG {
+  background-image: url("../images/investor.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.farmerBtn {
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+

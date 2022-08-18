@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Navbar from "../assets/components/Navbar";
 import { images } from "../API/images"
@@ -41,7 +41,7 @@ const Home = () => {
       <div>
         <Container className="section2">
           <Row className="section2Row">
-            <Col className="section2Col">
+            <Col md={6} className="section2Col">
               <div className="section2Div">
                 <h2 className="sec2Heading">
                   Why Investing together?
@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col md={6} className=""  >
               <div className="col2Div">
                 <div className="imageDiv">
                   <Image className="imgTag" src={images.home} />
@@ -100,11 +100,11 @@ const Home = () => {
               </p>
             </div>
             <div className="section3ImgDiv" style={{ marginTop: "5%" }}>
-              <Image src={images.numbers} />
+              <Image src={images.numbers} width="100%" />
             </div>
           </Row>
           <Row className="mt-5">
-            <Col>
+            <Col md={6}>
               <div className="" style={{ display: "flex", justifyContent: "center" }}>
                 <h3 className="section4Heading">
                   Select NFT Planting and Creation
@@ -121,22 +121,22 @@ const Home = () => {
                 </p>
               </div>
             </Col>
-            <Col className="section3ImgDiv" style={{ justifyContent: "flex-start" }}>
+            <Col md={6} className="section3ImgDiv" style={{ justifyContent: "flex-start" }}>
               <Image src={images.farm} />
             </Col>
           </Row>
         </Container>
         <div>
           <Row className="" style={{ marginTop: "5%" }}>
-            <Col md={8} lg={12}>
-              <Image className="imageTag" src={images.investNow} />
+            <Col md={12} lg={12}>
+              <Image className="imageTagInvest" src={images.investNow} />
             </Col>
-            <Col md={4} lg={4}></Col>
+            {/* <Col md={6}></Col> */}
           </Row>
         </div>
-        <div className="section5">
+        <div className="section5" style={{ display: "flex", justifyContent: "center" }}>
           <Row>
-            <Col className="mt-5" style={{ display: "flex", justifyContent: "center" }}>
+            <Col sm={12} md={6} className="section5Col1 mt-5">
               <div>
                 <h3 className="section5Heading">
                   There are many variations<br /> of passages of Lorem <br /> Ipsum available, but the<br /> majority have suffered
@@ -146,7 +146,7 @@ const Home = () => {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} md={6} className="section5Col2">
               <div style={{ marginTop: "10%" }}>
                 <p className="section5Paragraph">
                   There are many variations of passages of Lorem Ipsum<br />
@@ -154,8 +154,8 @@ const Home = () => {
                   form, by injected humour.
                 </p>
               </div>
-              <div className="mt-5">
-                <Link to="/" className="learn-more">
+              <div className="mt-5" style={{ textAlign: "center" }}>
+                <Link to="/" className="learn-more" >
                   Explore Resources
                 </Link>
               </div>
@@ -204,15 +204,134 @@ const Home = () => {
                   <Image src={images.invest1} />
                 </Col>
                 <Col style={{ display: "grid", justifyContent: "center" }}>
-                  <Image src={images.invest2} style={{ marginBottom: "30px" }} />
+                  <Image src={images.invest2} className="img2" style={{ marginBottom: "30px" }} />
                   <Image src={images.invest4} />
                 </Col>
                 <Col style={{ display: "grid", justifyContent: "left" }}>
-                  <Image src={images.invest3} style={{ marginBottom: "30px" }} />
+                  <Image src={images.invest3} className="img4" style={{ marginBottom: "30px" }} />
                   <Image src={images.invest5} />
                 </Col>
               </Row>
+              <div className="mt-5" style={{ textAlign: "center" }}>
+                <Link to="/" className="learn-more">
+                  Learn More
+                </Link>
+              </div>
+              <div className="" style={{ marginTop: "5%" }}>
+                <Row className="">
+                  <Col sm={12} md={6} className="mt-3">
+                    <div>
+                      <h3 className="section4Heading">
+                        White Paper
+                      </h3>
+                    </div>
+                    <div>
+                      <p className="lastSectionParagraph">
+                        Introcution to investing together
+                      </p>
+                      <p className="lastSectionParagraph2">
+                        There are many variations of passages of Lorem Ipsum <br />
+                        available, but the majority have suffered alteration in some <br />
+                        form, by injected humour, or randomised words which don't <br />
+                        look even slightly believable. If you are going to use a <br />
+                        passage of Lorem Ipsum, you need to be sure.
+                      </p>
+                    </div>
+                    <div className="mt-5" >
+                      <Link to="/" className="downloadBtn">
+                        Download White paper
+                      </Link>
+                    </div>
+                  </Col>
+                  <Col sm={12} md={6} className="mt-3">
+                    <Image src={images.whitePaper} />
+                  </Col>
+                </Row>
+              </div>
+              <Row>
+                <Col md={6} className="mt-5">
+                  <div style={{ display: "grid", justifyContent: "center", backgroundColor: "#7DD9CA", padding: "100px" }}>
+                    <div className="">
+                      <h3 className="footerAboveHeading">
+                        Ready to get started?
+                      </h3>
+                    </div>
+                    <div>
+                      <p className="lastSectionParagraph">
+                        Start investing or get in touch
+                      </p>
+                    </div>
+                    <div className="downloadBtnDi">
+                      <div className="downloadBtnDiv mt-5" >
+                        <Link to="/" className="learn-more" style={{ padding: "14px 30px" }}>
+                          Start investing together
+                        </Link>
+                        <span style={{ marginLeft: "20px" }}>
+                          <Link to="/" className="downloadBtn">
+                            FAQs
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col md={6} className="" style={{ display: "grid", justifyContent: "center" }}>
+                  <div style={{ marginTop: "70px" }}>
+                    <Image src={images.videoImg} />
+                    <span className="spanTag">
+                      Watch Video
+                    </span>
+                  </div>
+                  <div>
+                    <p className="lastSectionParagraph2">
+                      There are many variations of passages of Lorem Ipsum <br />
+                      available, but the majority have suffered alteration in some<br />
+                      form, by injected humour, or randomised words which don't<br />
+                      look even slightly believable. If you are going to use a
+                      <br /> passage of Lorem Ipsum, you need to be sure.
+                    </p>
+                  </div>
+                </Col>
+              </Row>
             </Container>
+            <Row style={{ marginTop: "5%" }}>
+              <Col md={6} className="farmerBG">
+                <div>
+                  <h3 className="section2Heading" style={{ textAlign: "center", paddingTop: "15%", color: "#FFFFFF" }}>
+                    Farmer
+                  </h3>
+                </div>
+                <div>
+                  <p className="section5Paragraph" style={{ textAlign: "center" }}>
+                    See additional information about farmland investment <br />
+                    performance.
+                  </p>
+                </div>
+                <div style={{ textAlign: "center", marginTop: "3%" }}>
+                  <Button className="farmerBtn" style={{ textAlign: "center", backgroundColor: "#7DD9CA", border: "none", borderRadius: "36px", padding: "12px 30px", color: "#303030" }}>
+                    See Returns History
+                  </Button>
+                </div>
+              </Col>
+              <Col md={6} className="investorBG">
+                <div>
+                  <h3 className="section2Heading" style={{ textAlign: "center", paddingTop: "15%", color: "#FFFFFF" }}>
+                    Investor
+                  </h3>
+                </div>
+                <div>
+                  <p className="section5Paragraph" style={{ textAlign: "center" }}>
+                    See additional information about partnering with <br />
+                    Investing together
+                  </p>
+                </div>
+                <div style={{ textAlign: "center", marginTop: "3%" }}>
+                  <Button className="farmerBtn" style={{ textAlign: "center", backgroundColor: "#7DD9CA", border: "none", borderRadius: "36px", padding: "12px 30px", color: "#303030" }}>
+                    See Investor Info
+                  </Button>
+                </div>
+              </Col>
+            </Row>
           </div>
           <div>
             <Footer />
