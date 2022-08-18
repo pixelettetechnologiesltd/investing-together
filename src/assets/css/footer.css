@@ -1,0 +1,79 @@
+.footerDiv {
+    background-color: #303030;
+    height: 620px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footerDiv {
+        height: auto;
+    }
+
+    .footerForm {
+        width: 100%;
+    }
+}
+
+.footerForm {
+    width: 100%;
+}
+
+.footerCol1Heading {
+    font-family: "Mondia";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D1D1D1;
+}
+
+.footerCol1Paragraph {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D1D1D1;
+}
+
+.socialMedia {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D1D1D1;
+}
+
+.copyright {
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #D1D1D1;
+}
+
+.footerCol2Heading {
+    font-family: "Manrope";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D1D1D1;
+}
+
+.submitBtn {
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #D1D1D1;
+    color: #323232;
+}
