@@ -15,7 +15,7 @@ const Navbar=()=> {
     setNav(!nav);
   };
   return (
-    <div className="container">
+    <div className="container-fluid" style={{backgroundColor:"#7DD9CA"}}>
       <div className="nav-bar">
         <span className="toggle-btn" onClick={handleToggle}>
           {toggle ? <GoThreeBars /> : <ImCross />}
