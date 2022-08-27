@@ -35,7 +35,7 @@ const Navbar=()=> {
             <Link to="/" className="navitems">
               Why investing togerther?
             </Link>
-            <Link to="/" className="navitems">
+            <Link to="/howitworks " className="navitems">
               How does it work?
             </Link>
             <Link to="/" className="navitems">

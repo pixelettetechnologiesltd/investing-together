@@ -242,15 +242,7 @@
   /* top: 3180px; */
 }
 
-.section5Paragraph {
-  font-family: "Manrope";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0.05em;
-  text-align: left;
-  color: #F1F1F1;
-}
+
 
 .section6 {
   /* position: absolute; */
@@ -290,27 +282,6 @@
   letter-spacing: 0em;
   text-align: left;
 }
-
-.lastSectionParagraph {
-  font-family: "Manrope";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: -0.5px;
-  text-align: left;
-  color: #888888;
-}
-
-.lastSectionParagraph2 {
-  font-family: "Manrope";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0.05em;
-  text-align: left;
-  color: #8C8C8C;
-}
-
 .downloadBtn {
   padding: 12px 30px;
   gap: 10px;
@@ -339,22 +310,9 @@
   color: #303030;
 }
 
-.spanTag {
-  font-family: "Manrope";
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: #2E2E2E;
-}
 
-.farmerBG {
-  background-image: url("../images/farmer.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
-}
+
+
 
 .investorBG {
   background-image: url("../images/investor.png");

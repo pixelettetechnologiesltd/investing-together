@@ -20,6 +20,9 @@ import whitePaper from "../assets/images/whitePaper.png"
 import videoImg from "../assets/images/videoImg.png"
 import farmer from "../assets/images/farmer.png"
 import investor from "../assets/images/investor.png"
+import field from "../assets/images/field.png"
+import vidico from "../assets/images/vidico.png"
+import logobbg from "../assets/images/logobbg.png"
 
 export const images = {
 	logo,
@@ -44,4 +47,7 @@ export const images = {
 	videoImg,
 	farmer,
 	investor,
+	field,
+	vidico,
+	logobbg
 }
