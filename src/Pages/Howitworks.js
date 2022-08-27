@@ -1,11 +1,8 @@
 import React from "react";
 import "../assets/css/Howitworks.css";
 import { Container, Row, Col, Image} from "react-bootstrap";
-import Navbar from "../assets/components/Navbar";
-import Footer from "../assets/components/Footer";
 import {images} from "../API/images"
-import BeforeFooter from "../assets/components/BeforeFooter";
-import WhitePaper from "../assets/components/WhitePaper";
+
 
 const Howitworks = () => {
   return (
@@ -13,7 +10,7 @@ const Howitworks = () => {
       <section className="set-container-bg">
         <Container>
           <Row>
-            <Navbar />
+          
           </Row>
           <Row>
             <Col md={2}></Col>
@@ -85,9 +82,7 @@ const Howitworks = () => {
           </Row>
         </Container>
       </section>
-      <WhitePaper/>
-      <BeforeFooter/>
-      <Footer />
+     
       
     </div>
   );

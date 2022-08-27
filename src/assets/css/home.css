@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
-
 @font-face {
   font-family: myFirstFont;
   src: url(MondiaThin.otf);
@@ -12,9 +10,8 @@ body{
   overflow: hidden;
   max-width: 100%;
   height: 793px;
-  background: #7dd9ca;
+  background: #7DD9CA;
 }
-
 .header-heading {
   font-family: "myFirstFont";
   font-style: normal;
@@ -28,7 +25,6 @@ body{
   color: #303030;
   margin-bottom: 5rem;
 }
-
 .header-para {
   font-family: "Manrope";
   text-align: left;
@@ -40,7 +36,6 @@ body{
   text-transform: uppercase;
   color: #303030;
 }
-
 .learn-more {
   padding: 12px 30px;
   gap: 10px;
@@ -56,12 +51,10 @@ body{
   line-height: 100%;
   text-transform: capitalize;
 }
-
 .sliderDiv {
   display: flex;
   justify-content: end;
 }
-
 .sliderParagraph {
   font-family: "Manrope";
   font-size: 16px;
@@ -70,7 +63,6 @@ body{
   letter-spacing: 0.05em;
   text-align: left;
 }
-
 .section2Heading {
   font-family: "Mondia";
   font-size: 30px;
@@ -78,13 +70,10 @@ body{
   line-height: 44px;
   letter-spacing: 0em;
   text-align: left;
-
 }
-
 .section2Div {
   margin-top: 25%;
 }
-
 .section2Paragraph {
   font-family: "Manrope";
   font-size: 16px;
@@ -94,33 +83,27 @@ body{
   text-align: left;
   color: #8C8C8C;
 }
-
 .col2Div {
   background-color: #B3F6EC;
   padding-bottom: 12%;
 }
-
 .imageDiv {
   display: flex;
   justify-content: center;
 }
-
 @media only screen and (max-width: 600px) {
   .imageDiv {
     margin-top: 5%;
   }
 }
-
 .imgTag {
   margin-top: -45%;
 }
-
 @media only screen and (max-width: 600px) {
   .imgTag {
     margin-top: 0%;
   }
 }
-
 .spanText {
   font-family: "Manrope";
   font-size: 16px;
@@ -130,11 +113,9 @@ body{
   letter-spacing: 0.05em;
   text-align: left;
 }
-
 .section3 {
   margin-top: 5%;
 }
-
 .section3Heading {
   font-family: "Mondia";
   font-size: 48px;
@@ -143,7 +124,6 @@ body{
   letter-spacing: 0em;
   text-align: center;
 }
-
 .section3Paragraph {
   font-family: "Manrope";
   font-size: 16px;
@@ -153,12 +133,10 @@ body{
   text-align: center;
   color: #8C8C8C;
 }
-
 .section3ImgDiv {
   display: flex;
   justify-content: center;
 }
-
 .section4Heading {
   font-family: "Mondia";
   font-size: 30px;
@@ -167,62 +145,51 @@ body{
   letter-spacing: 0em;
   text-align: left;
 }
-
 .imageTag {
   position: absolute;
   width: 956px;
   height: 768.63px;
   left: 0px;
 }
-
 .section5 {
   width: 100%;
   height: 400px;
   left: 0px;
   background-color: #7DD9CA;
 }
-
 @media only screen and (max-width: 600px) {
   .imageTagInvest {
     margin-top: 5%;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .img2 {
     margin-top: 8%;
   }
-
   .img4 {
     margin-top: 8%;
   }
-
   .downloadBtnDiv {
     display: flex;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .section5 {
     height: 800px;
   }
-
   .section5 .section5Col1 {
     display: flex;
     justify-content: center;
   }
-
   .section5 .section5Col2 div {
     margin-top: 0%;
     /* display: flex;
     justify-content: center; */
   }
-
   .section5 .learn-more {
     transform: translate(55%, -30px);
   }
 }
-
 .section5Heading {
   font-family: "Mondia";
   font-size: 48px;
@@ -231,7 +198,6 @@ body{
   letter-spacing: -0.01em;
   text-align: left;
 }
-
 .logoImg {
   /* position: absolute; */
   width: 144px;
@@ -239,21 +205,25 @@ body{
   left: 120px;
   /* top: 3180px; */
 }
-
-
-
+.section5Paragraph {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #F1F1F1;
+}
 .section6 {
   /* position: absolute; */
   /* top: 3366px; */
   width: 100%;
   overflow: hidden;
 }
-
 .slideDiv {
   background-color: #7DD9CA;
   padding-bottom: 70px;
 }
-
 .slideTitle {
   font-family: "Manrope";
   font-size: 16px;
@@ -262,7 +232,6 @@ body{
   letter-spacing: 0em;
   text-align: left;
 }
-
 .cardBodyText {
   font-family: "Manrope";
   font-size: 13px;
@@ -271,7 +240,6 @@ body{
   letter-spacing: 0em;
   text-align: left;
 }
-
 .cardPrice {
   font-family: "Manrope";
   font-size: 18px;
@@ -279,6 +247,24 @@ body{
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
+}
+.lastSectionParagraph {
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #888888;
+}
+.lastSectionParagraph2 {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #8C8C8C;
 }
 .downloadBtn {
   padding: 12px 30px;
@@ -297,7 +283,6 @@ body{
   text-decoration: none;
   text-transform: capitalize;
 }
-
 .footerAboveHeading {
   font-family: "Mondia";
   font-size: 30px;
@@ -307,18 +292,27 @@ body{
   text-align: left;
   color: #303030;
 }
-
-
-
-
-
+.spanTag {
+  font-family: "Manrope";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2E2E2E;
+}
+.farmerBG {
+  background-image: url("../images/farmer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
 .investorBG {
   background-image: url("../images/investor.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
 }
-
 .farmerBtn {
   font-family: "Manrope";
   font-size: 14px;
@@ -326,6 +320,4 @@ body{
   line-height: 14px;
   letter-spacing: 0em;
   text-align: center;
-
 }
-
