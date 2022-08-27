@@ -1,18 +1,23 @@
 import React from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Navbar from "../assets/components/Navbar";
+
 import { images } from "../API/images"
 import "../assets/css/home.css";
 import { SliderComponent } from "../assets/components/SliderComponent";
+<<<<<<< HEAD
 import Footer from "../assets/components/Footer";
 import BeforeFooter from "../assets/components/BeforeFooter";
 import WhitePaper from "../assets/components/WhitePaper";
+=======
+import FarmerInvester from "../assets/components/FarmerInvester";
+import Whitepaper from "../assets/components/Whitepaper";
+>>>>>>> f3d1ac296653d6adb82d7e881d561af593704c27
 const Home = () => {
   return (
     <div className="main">
       <div className="header">
-        <Navbar />
+        
         <div className="container mt-5">
           <div className="row" style={{ marginTop: "10%" }}>
             <div className="col-sm-12 col-md-12 col-lg-6">
@@ -219,9 +224,19 @@ const Home = () => {
                   Learn More
                 </Link>
               </div>
+<<<<<<< HEAD
               <div className="" style={{ marginTop: "5%" }}>
               </div>
             </Container>
+=======
+            
+              <Whitepaper/>
+            </Container>
+           <FarmerInvester/>
+          </div>
+          <div>
+            
+>>>>>>> f3d1ac296653d6adb82d7e881d561af593704c27
           </div>
         </div>
       </div>

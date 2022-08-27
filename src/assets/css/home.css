@@ -4,11 +4,9 @@
   font-family: myFirstFont;
   src: url(MondiaThin.otf);
 }
-
-.main {
-  overflow: hidden;
+body{
+  overflow-x: hidden;
 }
-
 .header {
   width: 100%;
   overflow: hidden;
