@@ -2,7 +2,7 @@
 import "./App.css";
 import Home from "./Pages/Home";
 import Index from "./assets/components/Index";
-import wInvesting from "./Pages/wInvesting";
+import Whyinvesting from "./Pages/Whyinvesting";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index/>}>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/why-investing-togerther" element={<wInvesting />}></Route>
+          <Route path="/why-investing-togerther" element={< Whyinvesting/>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

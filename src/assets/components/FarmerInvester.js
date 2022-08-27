@@ -1,4 +1,5 @@
 import React from 'react'
+import "../css/home.css"
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 const FarmerInvester = () => {
   return (
