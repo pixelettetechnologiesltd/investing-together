@@ -24,6 +24,9 @@ import locationIcon from "../assets/images/locationIcon.png"
 import sliderCard1 from "../assets/images/sliderCard1.png"
 import sliderCard2 from "../assets/images/sliderCard2.png"
 import sliderCard3 from "../assets/images/sliderCard3.png"
+import field from "../assets/images/field.png"
+import vidico from "../assets/images/vidico.png"
+import logobbg from "../assets/images/logobbg.png"
 
 export const images = {
 	logo,
@@ -52,4 +55,7 @@ export const images = {
 	sliderCard1,
 	sliderCard2,
 	sliderCard3,
+	field,
+	vidico,
+	logobbg
 }

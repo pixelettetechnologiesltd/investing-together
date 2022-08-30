@@ -1,0 +1,168 @@
+.set-container-bg {
+    background-color: #7DD9CA;
+    height: 100vh;
+}
+
+.main-black-head-center {
+    font-family: "Mondia";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-top: 100px;
+    color: #303030;
+}
+
+.desc-cent-grey {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #5C5B5B;
+}
+
+.gave-img-border {
+    border: 10px solid #E0FFFA;
+    position: relative;
+}
+
+.margin-top-250px {
+    margin-top: -18%;
+}
+
+.set-position {
+    position: absolute;
+    left: 47%;
+    top: 100%;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.background-image-leaf {
+    background-image: url(../images//leaf.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 100px;
+}
+
+.select-nft-plan {
+    font-family: "Mondia";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    color: #303030;
+}
+
+.desc-grey-left {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8C8C8C;
+    text-align: left;
+}
+
+.padding-right-130 {
+    padding-right: 130px;
+}
+
+.bg-color-faroz {
+    background-color: #7DD9CA;
+    padding: 80px 0px;
+    margin-top: 250px;
+}
+
+.left-black-head-48 {
+    font-family: "Mondia";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #303030;
+    text-align: left;
+
+}
+
+.black-bg {
+    background-color: #303030;
+    padding: 20px;
+    background-image: url(../images/leafbg.png);
+    background-repeat: no-repeat;
+    margin-top: -190px;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.desc-froz-bg {
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #5C5B5B;
+}
+
+
+.feroze-left-head {
+    font-family: "Mondia";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #4BBDAB;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.feroze-divider {
+    background-color: #4BBDAB;
+    height: 1px;
+    width: 20%;
+    margin-top: 50vh;
+}
+
+.by-owner-name {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #4BBDAB;
+    text-align: left;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .black-bg{
+        background-color: #303030;
+        padding: 20px;
+        background-image: url(../images/leafbg.png);
+        background-repeat: no-repeat;
+        margin-top: -50px;
+        background-position-x: 100%;
+        background-position-y: 100%;
+    }
+    .bg-color-faroz {
+        margin-top: 100px;
+    }
+    .background-image-leaf {
+        background-image: url(../images//leaf.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        margin-top: 100px;
+    }
+    .set-container-bg {
+        background-color: #7DD9CA;
+        height: 90vh;
+    }
+    .margin-top-250px {
+        margin-top: -30%;
+    }
+    .set-position {
+        position: absolute;
+        left: 43%;
+        top: 80%;
+    }
+}

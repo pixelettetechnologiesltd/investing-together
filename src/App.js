@@ -1,8 +1,12 @@
 
 import "./App.css";
 import Home from "./Pages/Home";
+
+import Howitworks from "./Pages/Howitworks";
+
 import Index from "./assets/components/Index";
-import wInvesting from "./Pages/wInvesting";
+import Whyinvesting from "./Pages/Whyinvesting";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MarketPlace } from "./Pages/MarketPlace";
 function App() {
@@ -14,7 +18,10 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/why-investing-togerther" element={<wInvesting />}></Route>
             <Route path="market-place" element={<MarketPlace />} />
+            <Route path="/howitworks" element={<Howitworks />}></Route>
+            <Route path="/why-investing-togerther" element={< Whyinvesting />}></Route>
           </Route>
+
         </Routes>
       </BrowserRouter>
     </div>
