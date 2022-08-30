@@ -1,8 +1,8 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Button, Card } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 import { images } from '../../API/images';
 
 const slides = [
@@ -58,14 +58,6 @@ const slides = [
 
 export const SliderComponent = () => {
 
-    const sliderRef = useRef()
-    const previous = () => {
-        sliderRef.current.slickPrev()
-    }
-    const next = () => {
-        console.log("tyoo", sliderRef.current)
-        sliderRef.current.slickNext()
-    }
     var settings = {
         dots: true,
         className: "center",
@@ -106,12 +98,15 @@ export const SliderComponent = () => {
         ]
     };
     return (
-        <div>
-            <Slider {...settings} className="slider">
+        <div style={{ margin: "0px 2%" }}>
+            <Container>
+            </Container>
+
+            <Slider {...settings} className="slider" style={{margin:"0px"}}>
                 {
                     slides.map(slide =>
-                        <div>
-                            <Card className='sliderCard' style={{ width: '25rem' }}>
+                        <div style={{ margin: "0px 5%" }}>
+                            <Card className='sliderCard' style={{ width: '25rem', border: "none", backgroundColor: "#7DD9CA" }}>
                                 <Card.Img variant="top" src={slide.img} />
                                 <Card.Body bg="dark" style={{ background: "#303030" }}>
                                     <Card.Title className='slideTitle' style={{ color: "#4BBDAB" }}>{slide.name}</Card.Title>
@@ -121,25 +116,23 @@ export const SliderComponent = () => {
                                                 {slide.plan} <span style={{ padding: "0px 20px" }}> | </span> {slide.rate}
                                             </p>
                                         </div>
-                                        <div style={{ border: "#4BBDAB 1px solid" }}>
-                                        </div>
-                                        <div className='mt-3'>
-                                            <p className='cardBodyText' style={{ color: "#4BBDAB" }}>
-                                                {slide.investment}
-                                                <span className='cardPrice' style={{ color: "#4BBDAB", float: "right" }}>
-                                                    {slide.price}
-                                                </span>
-                                            </p>
-                                        </div>
                                     </Card.Text>
+                                    <div style={{ border: "#4BBDAB 1px solid", backgroundColor: "#4BBDAB" }}>
+                                    </div>
+                                    <div className='mt-3'>
+                                        <p className='cardBodyText' style={{ color: "#4BBDAB" }}>
+                                            {slide.investment}
+                                            <span className='cardPrice' style={{ color: "#4BBDAB", float: "right" }}>
+                                                {slide.price}
+                                            </span>
+                                        </p>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </div>
                     )
                 }
             </Slider>
-            {/* <Button onClick={previous}>Pervious</Button>
-            <Button onClick={next}>Next</Button> */}
         </div>
     )
 }
