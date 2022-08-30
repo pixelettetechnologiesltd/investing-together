@@ -65,9 +65,12 @@ const Whitepaper = () => {
           </span>
         </div>
       </div>
-
+     
     </div>
+    </Col>
+    </Row>
+    </>
   );
 };
 
-export default WhitePaper;
+export default Whitepaper;

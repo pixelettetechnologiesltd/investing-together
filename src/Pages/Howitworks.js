@@ -4,10 +4,8 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { images } from "../API/images";
 
 import Freeguide from "../assets/components/Freeguide";
-
+import BeforeFooter from "../assets/components/BeforeFooter";
 import Whitepaper from "../assets/components/Whitepaper";
-
-
 const Howitworks = () => {
   return (
     <div>
@@ -82,10 +80,10 @@ const Howitworks = () => {
         <Col md={4}></Col>
 
       </section>
-
       <Freeguide />
-
-      </section>
+      
+      
+      
       <section className="bg-color-faroz">
         <Container>
           <Row>
@@ -119,8 +117,8 @@ const Howitworks = () => {
         </Row>
       </Container>
       <BeforeFooter />
-
     </div>
+  
   );
 };
 

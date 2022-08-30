@@ -3,7 +3,7 @@ import FarmerInvester from "../assets/components/FarmerInvester";
 import {Col, Container, Row } from "react-bootstrap";
 import ChartApex from "../assets/components/ChartApex";
 import "../assets/css/whyinvesting.css";
-import WhitePaper from "../assets/components/WhitePaper"
+import Whitepaper from "../assets/components/Whitepaper"
 const Whyinvesting = () => {
   return (
     <>
@@ -116,7 +116,7 @@ const Whyinvesting = () => {
           </Col>
          
         </Row>
-        <WhitePaper />
+        <Whitepaper />
       </Container>
       <FarmerInvester />
     </>
