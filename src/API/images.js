@@ -23,8 +23,18 @@ import investor from "../assets/images/investor.png"
 import field from "../assets/images/field.png"
 import vidico from "../assets/images/vidico.png"
 import logobbg from "../assets/images/logobbg.png"
-
+import location from "../assets/images/location.png"
+import bar from    "../assets/images/Vector 331.png"
+import grass from "../assets/images/Rectangle 11.png"
+import corn from "../assets/images/image 26 (Traced).png"
+import cotton from "../assets/images/cotton.png"
+import peanut from "../assets/images/peanut.png"
+import group29 from "../assets/images/Group 4426.png"
 export const images = {
+	group29,
+	peanut,
+	cotton,
+	corn,
 	logo,
 	home,
 	check,
@@ -49,5 +59,8 @@ export const images = {
 	investor,
 	field,
 	vidico,
-	logobbg
+	logobbg,
+	location,
+	bar,
+	grass
 }

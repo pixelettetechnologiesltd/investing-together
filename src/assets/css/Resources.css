@@ -1,0 +1,72 @@
+.additional_resources > h3 {
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+}
+.additional_description > p {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 0px 165px;
+  text-align: center;
+}
+.learning {
+  font-size: 20px;
+  font-weight: 700;
+}
+.more {
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn_learn {
+  padding: 10px 24px 10px 24px;
+  background: #fde9b0;
+  border-radius: 1px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.resource_hero {
+  background: #7dd9ca;
+  padding: 30px;
+}
+.faq_heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.accordion-item {
+  border: none !important;
+  margin: 10px !important;
+  box-shadow: 0px 20px 95px rgb(201 203 204 / 40%) !important;
+}
+button.accordion-button {
+  color: #8ee5d8 !important;
+  background-color: white !important;
+  box-shadow: none !important;
+}
+.accordion {
+  margin: 50px;
+}
+.general {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 19px 22px 23px 69px;
+}
+.privacy {
+  font-size: 25px;
+  margin: 36px 20px 38px 20px;
+  font-weight: 700;
+}
+.catonary-heading{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    font-size: 16px;
+    color: #8C8C8C;
+}

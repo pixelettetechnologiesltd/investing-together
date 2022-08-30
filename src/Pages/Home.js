@@ -6,10 +6,8 @@ import { images } from "../API/images"
 import "../assets/css/home.css";
 import { SliderComponent } from "../assets/components/SliderComponent";
 
-
-
 import FarmerInvester from "../assets/components/FarmerInvester";
-import Whitepaper from "../assets/components/Whitepaper";
+import WhitePaper from "../assets/components/WhitePaper"
 
 const Home = () => {
   return (
@@ -225,7 +223,7 @@ const Home = () => {
 
               <div className="" style={{ marginTop: "5%" }}>
               </div>
-              <Whitepaper/>
+              <WhitePaper/>
             </Container>
            <FarmerInvester/>
           </div>
