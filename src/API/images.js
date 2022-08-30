@@ -27,7 +27,6 @@ import sliderCard3 from "../assets/images/sliderCard3.png"
 import field from "../assets/images/field.png"
 import vidico from "../assets/images/vidico.png"
 
-import logobbg from "../assets/images/logobbg.png"
 import location from "../assets/images/location.png"
 import bar from    "../assets/images/Vector 331.png"
 import grass from "../assets/images/Rectangle 11.png"
@@ -89,10 +88,9 @@ export const images = {
 	field,
 	vidico,
 
-	logobbg,
 	location,
 	bar,
-	grass
+	grass,
 
 	logohd,
 	companytest,
