@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -63,28 +65,9 @@ const Whitepaper = () => {
           </span>
         </div>
       </div>
-    </div>
-  </Col>
-  <Col md={6} className="" style={{ display: "grid", justifyContent: "center" }}>
-    <div style={{ marginTop: "70px" }}>
-      <Image src={images.videoImg} />
-      <span className="spanTag">
-        Watch Video
-      </span>
-    </div>
-    <div>
-      <p className="lastSectionParagraph2">
-        There are many variations of passages of Lorem Ipsum <br />
-        available, but the majority have suffered alteration in some<br />
-        form, by injected humour, or randomised words which don't<br />
-        look even slightly believable. If you are going to use a
-        <br /> passage of Lorem Ipsum, you need to be sure.
-      </p>
-    </div>
-  </Col>
-</Row>
-</>
-  )
-}
 
-export default Whitepaper
+    </div>
+  );
+};
+
+export default WhitePaper;

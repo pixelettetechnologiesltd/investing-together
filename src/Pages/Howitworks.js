@@ -2,8 +2,11 @@ import React from "react";
 import "../assets/css/Howitworks.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { images } from "../API/images";
+
+import Freeguide from "../assets/components/Freeguide";
+
 import Whitepaper from "../assets/components/Whitepaper";
-import BeforeFooter from "../assets/components/BeforeFooter";
+
 
 const Howitworks = () => {
   return (
@@ -77,6 +80,11 @@ const Howitworks = () => {
           <Image src={images.investNow} width="100%" />
         </Col>
         <Col md={4}></Col>
+
+      </section>
+
+      <Freeguide />
+
       </section>
       <section className="bg-color-faroz">
         <Container>
@@ -111,6 +119,7 @@ const Howitworks = () => {
         </Row>
       </Container>
       <BeforeFooter />
+
     </div>
   );
 };

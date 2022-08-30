@@ -1,0 +1,89 @@
+.heading-marketplace > h1{
+  margin:40px
+}
+.icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.bar{
+    width: 40px;
+    height: 10px;
+}
+.bar > img {
+    height: 20px;
+}
+.date{
+    color: #7DD9CA;
+}
+.card-text{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+  border: none;
+  background: #7DD9CA;
+}
+.card-text > span {
+    background: #4BBDAB;
+    padding: 1px 13px 3px 6px;
+    font-size: 14px;
+    margin: 2px 12px 1px 2px;
+}
+span.text{
+    margin: 7px;
+}
+.card{
+    background-color: #7DD9CA !important;
+}
+.list-group-item {
+    background: #7DD9CA !important;
+}
+.price{
+    position: absolute;
+    right: 22px;
+}
+.card > .list-group {
+    border-top: none !important;
+
+}
+.invest{
+    background: black;
+    color: white;
+    padding: 6px 7px 5px 10px;
+    font-size: 13px;
+}
+.investor {
+    padding: 6px 12px 4px 10px;
+    border: 1px black solid;
+}
+.current-price{
+    margin: 10px 10px 9px 19px;
+}
+.card-body{
+    margin-bottom: 20px;
+}
+.card-title.h5{
+    font-size: 16px;
+}
+.tab{
+    display: flex;
+    justify-content: space-around;
+}
+button.description{
+
+width: 113px;
+height: 36px;
+border: none !important;
+background: #7DD9CA;
+border-radius: 2px;
+}
+span.description{
+    font-size: 16px;
+}
+p{
+    font-size: 16px;
+}
+.paragraph{
+    margin-top: 40px;
+}

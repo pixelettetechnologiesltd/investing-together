@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import { images } from "../API/images";
 import "../assets/css/home.css";
 import { SliderComponent } from "../assets/components/SliderComponent";
+
 import FarmerInvester from "../assets/components/FarmerInvester";
 import Whitepaper from "../assets/components/Whitepaper";
 import InvestTogather from "../assets/components/InvestTogather";
+
 
 const Home = () => {
   return (
@@ -254,8 +256,14 @@ const Home = () => {
               </div>
             </Row>
             <Container>
+
+              
+            
+             
+              
               <InvestTogather/>
               <Whitepaper />
+
             </Container>
             <FarmerInvester />
           </div>
