@@ -1,84 +1,71 @@
-import React from "react";
-import "../css/WhitePaper.css";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import { images } from "../../API/images";
-const WhitePaper = () => {
+
+
+import React from 'react'
+import { Col, Container, Image, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import  {images} from "../../API/images"
+import "../css/WhitePaper.css"
+const Whitepaper = () => {
   return (
-    <div >
-      <Container className="margin-top-100">
-        <Row>
-          <Col md={6}>
-            <h2 className="select-nft-plan">White Paper</h2>
-            <p className="desc-grey-left-14px">
-              Introcution to investing together
-            </p>
-            <p className="desc-grey-left padding-right-130">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text.
-            </p>
-            <button className="download-guide-but">Download White paper</button>
-          </Col>
-          <Col md={6}>
-            <Image className="img-wid-mbl" src={images.whitePaper} />
-          </Col>
-        </Row>
-        <Row style={{marginTop:"100px"}}>
-          <Col md={6} className="mt-5">
-            <div
-              style={{
-                display: "grid",
-                justifyContent: "center",
-                backgroundColor: "#7DD9CA",
-                padding: "24px 22px 39px 21px"
-              }}
-            >
-              <div className="">
-                <h3 className="footerAboveHeading">Ready to get started?</h3>
-              </div>
-              <div>
-                <p className="lastSectionParagraph">
-                  Start investing or get in touch
-                </p>
-              </div>
-              <div className="downloadBtnDi">
-                <div className="downloadBtnDiv mt-5">
-                  <button className="before-footer-btn">
-                    Start Investing Togather
-                  </button>
-                  <span style={{ marginLeft: "20px" }}>
-                    <button className="download-guide-but">FAQ's</button>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </Col>
-          <Col
-            md={6}
-            className=""
-            style={{ display: "grid", justifyContent: "center" }}
-          >
-            <div style={{ marginTop: "70px" }}>
-              <Image src={images.videoImg} />
-              <span className="spanTag">Watch Video</span>
-            </div>
-            <div>
-              <p className="lastSectionParagraph2">
-                There are many variations of passages of Lorem Ipsum <br />
-                available, but the majority have suffered alteration in some
-                <br />
-                form, by injected humour, or randomised words which don't
-                <br />
-                look even slightly believable. If you are going to use a
-                <br /> passage of Lorem Ipsum, you need to be sure.
-              </p>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+    <>
+    <div className="" style={{ marginTop: "5%" }}>
+    <Row className="">
+      <Col sm={12} md={6} className="mt-3">
+        <div>
+          <h3 className="section4Heading">
+            White Paper
+          </h3>
+        </div>
+        <div>
+          <p className="lastSectionParagraph">
+            Introcution to investing together
+          </p>
+          <p className="lastSectionParagraph2">
+            There are many variations of passages of Lorem Ipsum <br />
+            available, but the majority have suffered alteration in some <br />
+            form, by injected humour, or randomised words which don't <br />
+            look even slightly believable. If you are going to use a <br />
+            passage of Lorem Ipsum, you need to be sure.
+          </p>
+        </div>
+        <div className="mt-5" >
+          <Link to="/" className="downloadBtn">
+            Download White paper
+          </Link>
+        </div>
+      </Col>
+      <Col sm={12} md={6} className="mt-3">
+        <Image className='img-wid-mbl' src={images.whitePaper} />
+      </Col>
+    </Row>
+  </div>
+  <Row className='mt-5 mb-5' >
+  <Col md={6} className="mt-5">
+    <div style={{ display: "grid", justifyContent: "center", backgroundColor: "#7DD9CA", padding: "110px 60px" }}>
+      <div className="">
+        <h3 className="footerAboveHeading">
+          Ready to get started?
+        </h3>
+      </div>
+      <div>
+        <p className="lastSectionParagraph">
+          Start investing or get in touch
+        </p>
+      </div>
+      <div className="downloadBtnDi">
+        <div className="downloadBtnDiv mt-5" >
+        {/* <button className="before-footer-btn">Start investing together</button> */}
+          <Link to="/" className="before-footer-btn set-btn-white">
+            Start investing together
+          </Link>
+          <span style={{ marginLeft: "20px" }}>
+            <Link to="/" className="downloadBtn">
+              FAQs
+            </Link>
+          </span>
+        </div>
+      </div>
+
     </div>
   );
 };

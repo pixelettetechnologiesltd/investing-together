@@ -35,7 +35,7 @@
 .set-position {
     position: absolute;
     left: 47%;
-    top: 100%;
+    top: 115%;
 }
 
 .margin-top-100 {
@@ -132,6 +132,17 @@
     color: #4BBDAB;
     text-align: left;
     margin-top: 20px;
+}
+.download-guide-but{
+    background-color: #FDE9B0;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color:#303030;
+    text-align: left;
+    padding: 18px 36px;
+    border: none;
 }
 
 @media only screen and (max-width: 800px) {

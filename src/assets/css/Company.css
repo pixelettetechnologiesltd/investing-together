@@ -1,0 +1,100 @@
+.black-head-center {
+    font-family: "Mondia";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #303030;
+    text-align: center;
+}
+.margin-top-100{
+    margin-top:100px !important;
+}
+.grey-desc-center{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:#5C5B5B;
+    text-align: center;
+}
+.margin-top-50{
+    margin-top:50px !important; 
+}
+.vision{
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color:#303030;
+    text-align: left;
+}
+.vision-desc{
+    font-family:"Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:#8C8C8C;
+    text-align: left;
+    margin-top:15px;
+    padding-right: 100px;
+}
+.black-bg-company{
+    background-color: #303030;
+    padding: 50px 30px;
+    background-image: url(../images/twoleafdark.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}
+.download-guide-but{
+    background-color: #FDE9B0;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    color:#303030;
+    text-align: left;
+    padding: 18px 36px;
+    border: none;
+}
+.margin-top-min-btn{
+    margin-top: 10px !important;
+}
+.grey-light-bg{
+    background-color: #F2F2F2;
+    padding: 100px 150px;
+}
+.black-head-left-34{
+    font-family: "Poppins";
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 42px;
+    color:#1E212A;
+    text-align: left;
+
+}
+.grey-desc-left-18{
+    font-family:'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color:#7B7B7B;
+    text-align: left;
+}
+.right-border{
+    border-right:1px solid #B8B8B8;
+}
+.padd-right{
+    padding-right: 30px;
+}
+@media only screen and (max-width: 800px) {
+    .black-bg-company{
+        height: 60vh !important;
+    }
+    .marg-top-mbl{
+        margin-top:20px !important;
+    }
+    .img-set-for-mbl{
+        width:150%;
+        margin-top:40px !important;
+    }
+   
+}

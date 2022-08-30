@@ -41,10 +41,10 @@ const Navbar=()=> {
             <Link to="/" className="navitems">
               Marketplace
             </Link>
-            <Link to="/" className="navitems">
+            <Link to="/company" className="navitems">
               Company <MdOutlineKeyboardArrowDown />
               <div className="submenu">
-                <Link to="/" className="submenu-item">
+                <Link to="/aboutus" className="submenu-item">
                   About
                 </Link>
                 <Link to="/" className="submenu-item">

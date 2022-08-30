@@ -1,0 +1,95 @@
+.main-black-head-cent{
+    font-family: "Mondia";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color:#303030;
+    text-align: center;
+}
+.desc-cent{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color:#5C5B5B;
+    text-align: center;
+}
+.marg-top-100{
+    margin-top:100px !important;
+}
+.marg-top-60{
+    margin-top:60px !important;
+}
+.learn-user{
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color:#303030;
+    margin-top:7px !important;
+    margin-left: -7px;
+}
+.learn-date{
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color:#898989;
+    margin-top: 7px;
+}
+.learn-make-row-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+.title-Learn{
+    font-family: "Mondia";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color:#303030   
+}
+.grey-desc-left{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color:#5C5B5B;
+}
+.button-learn{
+    background-color: #FDE9B0;
+    padding: 18px 36px;
+    border: none;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    text-align: center;
+}
+.padd-right{
+    padding-right: 50px;
+}
+.white-bg-btn{
+    border: 1px solid black;
+    padding: 18px 30px;
+    font-family:" Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: left;
+    color:#303030;
+    background-color: transparent;
+}
+@media screen and (max-width:1000px) {
+    .learn-make-row-flex{
+        width: 45%;
+        margin-top:20px !important;
+    }
+}
