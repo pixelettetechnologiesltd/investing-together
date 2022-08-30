@@ -112,5 +112,9 @@ color:#303030;
 text-align: left;
 padding: 18px 36px;
 border: none;
-
+text-decoration: none;
+}
+.set-btn-white{
+  margin-top:-10px;
+  
 }
