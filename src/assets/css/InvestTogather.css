@@ -1,0 +1,61 @@
+.invest-black-bg{
+    padding: 20px;
+    background-color: #303030;
+}
+.invest-head-left{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color:#7DD9CA;
+}
+.user-invest{
+    font-family: "Manrope";
+    font-size: 16   px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color:#7DD9CA;
+    margin: 8px 10px;
+}
+.invest-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.invest-flex-row-just-cent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.height-set{
+    height: 24%;
+}
+.invest-why-btn{
+    background-color: #FDE9B0;
+    padding: 18px 36px;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color:#303030;
+    margin-top: 10px;
+    border: none;
+}   
+.marg-bottom{
+    margin-bottom: 0px !important;
+}
+.marg-top-50{
+    margin-top:50px!important;
+}
+@media screen and (max-width:1000px) {
+    .marg-top-100{
+        margin-top: 450px !important;
+    } 
+    .marg-mbl{
+        margin-top: 24px !important;
+    }
+   .marg-col-mb-set{
+    margin-top: -174px !important;
+   }
+}

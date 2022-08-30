@@ -1,7 +1,8 @@
 import React from 'react'
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import  {images} from "../../API/images"
+import "../css/WhitePaper.css"
 const Whitepaper = () => {
   return (
     <>
@@ -32,13 +33,13 @@ const Whitepaper = () => {
         </div>
       </Col>
       <Col sm={12} md={6} className="mt-3">
-        <Image src={images.whitePaper} />
+        <Image className='img-wid-mbl' src={images.whitePaper} />
       </Col>
     </Row>
   </div>
-  <Row>
+  <Row className='mt-5 mb-5' >
   <Col md={6} className="mt-5">
-    <div style={{ display: "grid", justifyContent: "center", backgroundColor: "#7DD9CA", padding: "100px" }}>
+    <div style={{ display: "grid", justifyContent: "center", backgroundColor: "#7DD9CA", padding: "110px 60px" }}>
       <div className="">
         <h3 className="footerAboveHeading">
           Ready to get started?
@@ -51,7 +52,8 @@ const Whitepaper = () => {
       </div>
       <div className="downloadBtnDi">
         <div className="downloadBtnDiv mt-5" >
-          <Link to="/" className="learn-more" style={{ padding: "14px 30px" }}>
+        {/* <button className="before-footer-btn">Start investing together</button> */}
+          <Link to="/" className="before-footer-btn set-btn-white">
             Start investing together
           </Link>
           <span style={{ marginLeft: "20px" }}>

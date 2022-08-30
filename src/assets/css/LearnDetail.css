@@ -1,0 +1,67 @@
+.subscribe-sec{
+    background-color: #7DD9CA;
+    padding: 50px;
+}
+.subscribe-head{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color:#303030;
+}
+.button-subs{
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: left;
+    color:#303030;
+    border: 1px solid black;
+    padding: 18px 36px;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    margin-top: 50px !important;
+}
+.share-text{
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color:#303030;
+    margin-top: 50px;
+}
+.icons-set{
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.make-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.detail-head{
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color:#303030
+}
+.desc-detail{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color:#8C8C8C;
+
+}
+.learn-make-row-flex-detail{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 15%;
+        margin-top: 30px;
+}
