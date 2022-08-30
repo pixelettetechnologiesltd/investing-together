@@ -20,6 +20,10 @@ import whitePaper from "../assets/images/whitePaper.png"
 import videoImg from "../assets/images/videoImg.png"
 import farmer from "../assets/images/farmer.png"
 import investor from "../assets/images/investor.png"
+import locationIcon from "../assets/images/locationIcon.png"
+import sliderCard1 from "../assets/images/sliderCard1.png"
+import sliderCard2 from "../assets/images/sliderCard2.png"
+import sliderCard3 from "../assets/images/sliderCard3.png"
 import field from "../assets/images/field.png"
 import vidico from "../assets/images/vidico.png"
 import logohd from "../assets/images/logohd.png"
@@ -63,6 +67,10 @@ export const images = {
 	videoImg,
 	farmer,
 	investor,
+	locationIcon,
+	sliderCard1,
+	sliderCard2,
+	sliderCard3,
 	field,
 	vidico,
 	logohd,
