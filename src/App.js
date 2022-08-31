@@ -10,6 +10,9 @@ import Index from "./assets/components/Index";
 import AboutUs from "./Pages/AboutUs";
 import LearningCenter from "./Pages/LearningCenter";
 import LearnDetail from "./Pages/LearnDetail";
+import Contactus from "./Pages/Contactus";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MarketPlace } from "./Pages/MarketPlace";
 function App() {
@@ -35,11 +38,12 @@ function App() {
             <Route path="/howitworks" element={<Howitworks />}></Route>
             <Route path="/learningcenter" element={<LearningCenter />}></Route>
             <Route path="/learndetail" element={<LearnDetail />}></Route>
-           
-           
+
             <Route path="market-place" element={<MarketPlace />} />
             <Route path="/howitworks" element={<Howitworks />}></Route>
-           
+            <Route path="/contact-us" element={<Contactus />}></Route>
+            <Route path="/login" element={<Login />}></Route>
+            <Route path="/signup" element={<Signup />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
