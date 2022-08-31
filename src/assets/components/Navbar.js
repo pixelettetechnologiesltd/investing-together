@@ -15,7 +15,7 @@ const Navbar=()=> {
     setNav(!nav);
   };
   return (
-    <div className="container-fluid" style={{backgroundColor:"#7DD9CA"}}>
+    <div className="container-fluid" style={{backgroundColor:"#7DD9CA", padding:"0px 100px"}}>
       <div className="nav-bar">
         <span className="toggle-btn" onClick={handleToggle}>
           {toggle ? <GoThreeBars /> : <ImCross />}
@@ -55,11 +55,11 @@ const Navbar=()=> {
             <Link to="/" className="navitems">
               Resources <MdOutlineKeyboardArrowDown />
               <div className="submenu">
-                <Link to="/" className="submenu-item">
-                  Marketplace
+                <Link to='/LearningCenter' className="submenu-item">
+                  Learning
                 </Link>
-                <Link to="/" className="submenu-item">
-                  Marketplace
+                <Link to="/Faq  " className="submenu-item">
+                  FAQs
                 </Link>
               </div>
             </Link>

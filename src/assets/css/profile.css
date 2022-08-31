@@ -23,14 +23,19 @@
     color: #303030;
     border: none;
     height: 40px;
-    width: 113px;
+    /* width: 113px; */
     left: 370px;
     top: 326px;
     border-radius: 0px;
-    padding: 12px 12px 12px 24px;
-    /* margin-left: 1%; */
+    padding: 12px 24px 12px 24px;
+    margin-left: 1%;
     color: #303030;
     text-decoration: none;
+    background-color: transparent;
+}
+
+.link:focus {
+    background-color: #7DD9CA;
 }
 
 .noBullets {
@@ -69,3 +74,26 @@
     text-align: left;
     color: #8C8C8C;
 }
+
+.selectDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.selectDiv>.form-select {
+    height: 55px;
+    width: 537px;
+    left: 452px;
+    top: 219px;
+    border-radius: 2px;
+    padding: 14px 30px 14px 30px;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #AEAEAE;
+}
+
+.dropdownDiv {}

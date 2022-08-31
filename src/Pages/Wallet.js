@@ -26,7 +26,7 @@ const Wallet = () => {
             </button>
           </Col>
         </Row>
-        <Row className='marg-wallet-50'>
+        <Row className='marg-wallet-50 mt-5'>
             <Col md={6}>
                 <div className='green-bg-card'>
                     <p className='bal-text'>Current Balance</p>

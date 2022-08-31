@@ -128,6 +128,7 @@ const Faq = () => {
           </p>
         </div>
       </Container>
+      <Container>
       <Row style={{ marginTop: "100px" }}>
         <Col md={6} className="mt-5">
           <div
@@ -181,6 +182,7 @@ const Faq = () => {
           </div>
         </Col>
       </Row>
+      </Container>
       <FarmerInvester />
     </div>
   );

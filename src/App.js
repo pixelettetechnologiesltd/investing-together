@@ -15,11 +15,7 @@ import Contactus from "./Pages/Contactus";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 
-<<<<<<< HEAD
-import AccountInfo from "../src/Pages/AccountInfo";
-=======
 import AccountInfo from "../src/Pages/AccountInfo"
->>>>>>> e4f050ca3cdd0a3010a3cd1d167729ad6447b8de
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MarketPlace } from "./Pages/MarketPlace";
