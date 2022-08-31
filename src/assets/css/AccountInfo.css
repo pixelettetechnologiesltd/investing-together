@@ -1,0 +1,59 @@
+.bott-bg-img{
+    padding-bottom: 350px;
+    background-image: url(../images/bgpro.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-position-y: 700px;
+}
+.black-head-cent-acc{
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color:#303030;
+}
+.acc-button-sing{
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 18px 36px;
+    display: block;
+    margin-left:auto;
+}
+.margin-top-100-acc{
+    margin-top:100px !important;
+}
+.field-set{
+    padding: 20px 25px !important;
+    background-color: #FAFAFA;
+    border: 1px solid #EFEFEF;
+}
+.button-wallet{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    padding:12px 36px;
+    background-color: #FDE9B0;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 50px !important;
+}
+.wallet-icon{
+font-size: 30px;
+margin-right: 10px;
+}
+@media screen and (max-width:1000px) {
+    .bott-bg-img{
+        background-position: bottom center;
+        background-size: 400px;
+    }
+    .marg-top-mbl{
+        margin-top: 25px !important;
+    }
+}
