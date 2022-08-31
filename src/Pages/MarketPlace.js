@@ -6,6 +6,8 @@ import { images } from '../API/images';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Whitepaper from "../assets/components/Whitepaper"
+import InvestTogather from "../assets/components/InvestTogather"
 export const MarketPlace = () => {
     const slides = [
         {
@@ -130,7 +132,7 @@ export const MarketPlace = () => {
                         {
                             slides.map(slide =>
                                 <Col md={4} className="mt-4">
-                                    <Card className='sliderCard' style={{ width: '25rem' }}>
+                                    <Card className='sliderCard' style={{ width: '25rem', border: "none" }}>
                                         <Card.Img variant="top" src={slide.img} />
                                         <Card.Body bg="dark" style={{ background: "#303030" }}>
                                             <Card.Title className='slideTitle' style={{ color: "#4BBDAB" }}>{slide.name}
@@ -142,17 +144,17 @@ export const MarketPlace = () => {
                                                         {slide.plan} <span style={{ padding: "0px 20px" }}> | </span> {slide.rate}
                                                     </p>
                                                 </div>
-                                                <div style={{ border: "#4BBDAB 1px solid" }}>
-                                                </div>
-                                                <div className='mt-3'>
-                                                    <p className='cardBodyText' style={{ color: "#4BBDAB" }}>
-                                                        {slide.investment}
-                                                        <span className='cardPrice' style={{ color: "#4BBDAB", float: "right" }}>
-                                                            {slide.price}
-                                                        </span>
-                                                    </p>
-                                                </div>
                                             </Card.Text>
+                                            <div style={{ border: "#4BBDAB 1px solid", backgroundColor:"#4BBDABFF" }}>
+                                            </div>
+                                            <div className='mt-3'>
+                                                <p className='cardBodyText' style={{ color: "#4BBDAB" }}>
+                                                    {slide.investment}
+                                                    <span className='cardPrice' style={{ color: "#4BBDAB", float: "right" }}>
+                                                        {slide.price}
+                                                    </span>
+                                                </p>
+                                            </div>
                                         </Card.Body>
                                     </Card>
                                 </Col>
@@ -202,6 +204,21 @@ export const MarketPlace = () => {
                     </div>
                 </Container >
             </div>
+            <Row className="mt-5">
+                <h3 className="section3Heading">How to Investing together</h3>
+                <div className="section6Di">
+                    <p className="section3Paragraph">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting <br />
+                        industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever
+                        <br />
+                        since the 1500s, when an unknown printer.
+                    </p>
+                </div>
+            </Row>
+            <InvestTogather />
+            <Whitepaper />
         </div >
     )
 }

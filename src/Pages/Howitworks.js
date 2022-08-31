@@ -81,9 +81,6 @@ const Howitworks = () => {
 
       </section>
       <Freeguide />
-      
-      
-      
       <section className="bg-color-faroz">
         <Container>
           <Row>

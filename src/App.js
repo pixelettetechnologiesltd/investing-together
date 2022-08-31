@@ -16,6 +16,8 @@ import { MarketPlace } from "./Pages/MarketPlace";
 import Wallet from "../src/Pages/Wallet"
 import Settings from "../src/Pages/Settings"
 
+import { Profile } from "./Pages/Profile";
+import { Notification } from "./Pages/Notification";
 function App() {
   return (
     <div className="App">
@@ -28,7 +30,18 @@ function App() {
               path="/why-investing-togerther"
               element={<Whyinvesting />}
             ></Route>
-            <Route path="/marketPlace-detail" element={<MarketplaceDetail />}></Route>
+            <Route
+              path="/marketPlace-detail"
+              element={<MarketplaceDetail />}
+            ></Route>
+            <Route
+              path="/resources"
+              element={<Resources />}
+            ></Route>
+            <Route
+              path="/faq"
+              element={<Faq />}
+            ></Route>
             <Route path="/resources" element={<Resources />}></Route>
             <Route path="/faq" element={<Faq />}></Route>
             <Route path="/company" element={<Company />}></Route>
@@ -41,7 +54,11 @@ function App() {
             <Route path="/account-info" element={<AccountInfo />}></Route>
             <Route path="/wallet" element={<Wallet/>}></Route>
             <Route path="/settings" element={<Settings/>}></Route>
-
+            <Route path="/why-investing-togerther" element={<wInvesting />}></Route>
+            <Route path="market-place" element={<MarketPlace />} />
+            <Route path="/howitworks" element={<Howitworks />}></Route>
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/notification" element={<Notification />} />
           </Route>
         </Routes>
       </BrowserRouter>
