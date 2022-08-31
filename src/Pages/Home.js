@@ -183,7 +183,7 @@ const Home = () => {
           </Row>
         </div>
         <div
-          className="section5"
+          className="section5 mt-5"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <Row>
@@ -217,7 +217,7 @@ const Home = () => {
             </Col>
           </Row>
         </div>
-        <div className="section6">
+        <div className="section6 mt-5">
           <Row>
             <h3 className="section3Heading">Marketplace</h3>
             <div className="section6Di">
