@@ -12,6 +12,10 @@ import LearningCenter from "./Pages/LearningCenter";
 import LearnDetail from "./Pages/LearnDetail";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MarketPlace } from "./Pages/MarketPlace";
+import Contactus from "./Pages/Contactus";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
+
 import { Profile } from "./Pages/Profile";
 function App() {
   return (
@@ -23,6 +27,16 @@ function App() {
             <Route path="/howitworks" element={<Howitworks />}></Route>
             <Route path="/why-investing-togerther" element={<Whyinvesting />}></Route>
             <Route path="/marketPlace-detail" element={<MarketplaceDetail />}></Route>
+            <Route
+              path="/why-investing-togerther"
+              element={<Whyinvesting />}
+            ></Route>
+            <Route
+              path="/marketPlace-detail"
+              element={<MarketplaceDetail />}
+            ></Route>
+            <Route path="/resources" element={<Resources />}></Route>
+            <Route path="/faq" element={<Faq />}></Route>
             <Route path="/resources" element={<Resources />}></Route>
             <Route path="/faq" element={<Faq />}></Route>
             <Route path="/resources" element={<Resources />}></Route>
@@ -30,6 +44,18 @@ function App() {
             <Route path="/aboutus" element={<AboutUs />}></Route>
             <Route path="/learningcenter" element={<LearningCenter />}></Route>
             <Route path="/learndetail" element={<LearnDetail />}></Route>
+            <Route path="/contact-us" element={<Contactus />}></Route>
+            <Route path="/login" element={<Login />}></Route>
+            <Route path="/signup" element={<Signup />}></Route>
+            <Route
+              path="/why-investing-togerther"
+              element={<wInvesting />}
+            ></Route>
+            <Route path="/profile" element={<Profile />} />
+            <Route path="market-place" element={<MarketPlace />} />
+            <Route path="/contact-us" element={<Contactus />}></Route>
+            <Route path="/login" element={<Login />}></Route>
+            <Route path="/signup" element={<Signup />}></Route>
             <Route path="/why-investing-togerther" element={<wInvesting />}></Route>
             <Route path="market-place" element={<MarketPlace />} />
             <Route path="/howitworks" element={<Howitworks />}></Route>

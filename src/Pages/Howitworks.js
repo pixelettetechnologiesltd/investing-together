@@ -78,7 +78,6 @@ const Howitworks = () => {
           <Image src={images.investNow} width="100%" />
         </Col>
         <Col md={4}></Col>
-
       </section>
       <Freeguide />
       <Container>
@@ -88,7 +87,6 @@ const Howitworks = () => {
       </Container>
       <BeforeFooter />
     </div>
-  
   );
 };
 

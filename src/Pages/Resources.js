@@ -40,6 +40,7 @@ const Resources = () => {
       <h3 className="faq_heading">Frequently Asked Questions</h3>
       <FAQ/>
       </Container>
+      <Container>
       <Row style={{ marginTop: "100px" }}>
         <Col md={6} className="mt-5">
           <div
@@ -93,6 +94,7 @@ const Resources = () => {
           </div>
         </Col>
       </Row>
+      </Container>
     </div>
   );
 };

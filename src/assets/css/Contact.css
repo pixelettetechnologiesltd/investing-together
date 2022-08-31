@@ -1,0 +1,45 @@
+.contact-us {
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.heading4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+.acetrdor {
+  margin: 12px;
+}
+.form-control {
+  background: #fafafa;
+  border-radius: 2px !important;
+  width: 513px;
+  height: 45px;
+}
+textarea.form-control {
+    min-height: calc(1.5em + 9.75rem + 4px) !important;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+.featured{
+    background: #F2F2F2;
+    padding: 100px;
+}
+.description > p{
+    width: 100%;
+}
+label.form-check-label {
+  font-size: 14px !important;
+}
+.form-check-input[type=checkbox] {
+   border-radius: 0em !important;
+}
+input#formBasicCheckbox {
+  background-color: #FDE9B0 !important;
+  border-color: #FDE9B0 !important
+}

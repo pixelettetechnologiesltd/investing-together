@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
+import { Container, Row, Col, Card, ListGroup ,Image } from "react-bootstrap";
 import "../assets/css/Marketplacedetail.css";
 import { images } from "../API/images";
-import "../assets/css/WhitePaper.css"
+import "../assets/css/WhitePaper.css";
 import FarmerInvester from "../assets/components/FarmerInvester";
 const MarketplaceDetail = () => {
   return (
@@ -74,62 +74,166 @@ const MarketplaceDetail = () => {
                 </ListGroup.Item>
               </ListGroup>
               <div className="current-price">
-              <span>Current Price</span>
-              <p>16.99</p>
+                <span>Current Price</span>
+                <p>16.99</p>
               </div>
               <Card.Body>
-                <Card.Link href="#"><button className="invest">Invest Now</button></Card.Link>
-                <Card.Link href="#"><button className="investor">Investor relation</button></Card.Link>
+                <Card.Link href="#">
+                  <button className="invest">Invest Now</button>
+                </Card.Link>
+                <Card.Link href="#">
+                  <button className="investor">Investor relation</button>
+                </Card.Link>
               </Card.Body>
             </Card>
           </Col>
         </Row>
         <Row>
-            <Col lg={6} style={{marginTop:"5%"}}>
-                <div className="tab">
-                <button className="description">Description</button>
-                <span className="description">Images</span>
-                <span className="description">Finances </span>
-                <span className="description">Maps</span>
-                <span className="description">Legal Documents </span>
-                <span className="description">Ranking</span>
+          <Col lg={6} style={{ marginTop: "5%" }}>
+            <div className="tab">
+              <button className="description">Description</button>
+              <span className="description">Images</span>
+              <span className="description">Finances </span>
+              <span className="description">Maps</span>
+              <span className="description">Legal Documents </span>
+              <span className="description">Ranking</span>
+            </div>
+            <div className="paragraph">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </div>
+            <div className="Investment">
+              <h4>Investment Highlights</h4>
+              <ul>
+                <li>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour.
+                </li>
+                <li>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour.
+                </li>
+                <li>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour.
+                </li>
+                <li>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour.
+                </li>
+              </ul>
+            </div>
+            <div className="detail">
+              <h4>Additional Details</h4>
+              <p>
+                If you are going to use a passage of Lorem Ipsum, you need to be
+                sure there isn't anything embarrassing hidden in the middle of
+                text. All the Lorem Ipsum generators on the Internet tend to
+                repeat predefined chunks as necessary, making this the first
+                true generator on the Internet. It uses a dictionary of over 200
+                Latin words, combined with a handful of model sentence
+                structures, to generate Lorem Ipsum which looks reasonable. The
+                generated Lorem Ipsum is therefore always free from repetition,
+                injected humour, or non-characteristic words etc.
+              </p>
+            </div>
+          </Col>
+          <Col lg={6} style={{marginTop:"62px"}}>
+            <Image src={images.invest1}  height="371px" width="380px" />
+            <div className="invest-black-bg" style={{width:"380px"}}>
+              <p className="invest-head-left">
+                The title of the blog will go here, either one or two lines{" "}
+              </p>
+              <div className="invest-flex-row-just-cent">
+                <div className="invest-flex-row">
+                  <Image src={images.investp} />
+                  <p className="user-invest">JOhn Doe</p>
                 </div>
-                <div className="paragraph">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-               </div>
-               <div className="Investment">
-                <h4>Investment Highlights</h4>
-                <ul>
-                    <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</li>
-                    <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</li>
-                    <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</li>
-                    <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</li>
-                </ul>
-               </div>
-               <div className="detail">
-               <h4>Additional Details</h4>
-                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-               </div>
-            </Col>
-            <Col lg={6}></Col>
-            </Row>
-            <Row>
-                <Col lg={6}>
-                <div className="detail">
-               <h4>Risk Factors and Disclosures</h4>
-                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-               </div>
-                </Col>
-                <Col lg={6}>
-                
+                <div>
+                  <p className="user-invest">Dec 09, 2022</p>
+                </div>
+              </div>
+            </div>
+            <Image src={images.invest1} style={{marginTop:"50px"}} height="371px" width="380px" />
+            <div className="invest-black-bg" style={{width:"380px"}}>
+              <p className="invest-head-left">
+                The title of the blog will go here, either one or two lines{" "}
+              </p>
+              <div className="invest-flex-row-just-cent">
+                <div className="invest-flex-row">
+                  <Image src={images.investp} />
+                  <p className="user-invest">JOhn Doe</p>
+                </div>
+                <div>
+                  <p className="user-invest">Dec 09, 2022</p>
+                </div>
+              </div>
+            </div>
+            
+          </Col>
+        </Row>
+        <Row style={{marginTop:"100px"}}>
+          <Col lg={6}>
+            <div className="detail">
+              <h4>Risk Factors and Disclosures</h4>
+              <p>
+                If you are going to use a passage of Lorem Ipsum, you need to be
+                sure there isn't anything embarrassing hidden in the middle of
+                text. All the Lorem Ipsum generators on the Internet tend to
+                repeat predefined chunks as necessary, making this the first
+                true generator on the Internet. It uses a dictionary of over 200
+                Latin words, combined with a handful of model sentence
+                structures, to generate Lorem Ipsum which looks reasonable. The
+                generated Lorem Ipsum is therefore always free from repetition,
+                injected humour, or non-characteristic words etc.
+              </p>
+            </div>
+          </Col>
+          <Col lg={6}>
             <div
               style={{
                 display: "grid",
                 justifyContent: "center",
                 backgroundColor: "#7DD9CA",
-                padding: "24px 22px 39px 21px"
+                padding: "24px 22px 39px 21px",
               }}
             >
               <div className="">
@@ -152,11 +256,9 @@ const MarketplaceDetail = () => {
               </div>
             </div>
           </Col>
-               
-            </Row>
-
+        </Row>
       </Container>
-      <FarmerInvester/>
+      <FarmerInvester />
     </>
   );
 };
