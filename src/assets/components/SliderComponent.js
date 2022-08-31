@@ -60,53 +60,60 @@ export const SliderComponent = () => {
 
     var settings = {
         dots: true,
-        className: "center",
-        centerMode: true,
         infinite: true,
-        centerPadding: "300px",
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 3000,
-        autoplaySpeed: 3000,
-        cssEase: "linear",
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
+        // dots: true,
+        // className: "center",
+        // centerMode: true,
+        // infinite: true,
+        // centerPadding: "300px",
+        // slidesToShow: 3,
+        // slidesToScroll: 1,
+        // speed: 3000,
+        // autoplaySpeed: 3000,
+        // // cssEase: "linear",
+        // responsive: [
+        //     {
+        //         breakpoint: 1024,
+        //         settings: {
+        //             slidesToShow: 3,
+        //             slidesToScroll: 3,
+        //             infinite: true,
+        //             dots: true
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 600,
+        //         settings: {
+        //             slidesToShow: 2,
+        //             slidesToScroll: 2,
+        //             initialSlide: 2
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 480,
+        //         settings: {
+        //             slidesToShow: 1,
+        //             slidesToScroll: 1
+        //         }
+        //     }
+        // ]
     };
     return (
         <div style={{ margin: "0px 2%" }}>
             <Container>
             </Container>
 
-            <Slider {...settings} className="slider" style={{margin:"0px"}}>
+            <Slider {...settings} className="slider">
                 {
                     slides.map(slide =>
-                        <div style={{ margin: "0px 5%" }}>
-                            <Card className='sliderCard' style={{ width: '25rem', border: "none", backgroundColor: "#7DD9CA" }}>
+                        <div>
+                            <Card className='sliderCard' style={{ width:"22rem", border: "none", backgroundColor: "#7DD9CA" }}>
                                 <Card.Img variant="top" src={slide.img} />
                                 <Card.Body bg="dark" style={{ background: "#303030" }}>
                                     <Card.Title className='slideTitle' style={{ color: "#4BBDAB" }}>{slide.name}</Card.Title>
