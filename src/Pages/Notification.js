@@ -7,17 +7,17 @@ import "../assets/css/profile.css"
 export const Notification = () => {
     return (
         <div>
-            <Container>
+            <Container className='bott-bg-img'>
                 <Row style={{ marginTop: "5%" }}>
                 </Row >
                 <Row>
-                    <div className='linkDiv mt-5 mb-5' style={{ textAlign: "center" }}>
+                    {/* <div className='linkDiv mt-5 mb-5' style={{ textAlign: "center" }}>
                         <Link to="/" className='link linkButton'>Portfolio</Link>
                         <Link to="/" className='link '>Accounts</Link>
                         <Link to="/" className='link '>Wallet</Link>
                         <Link to="/" className='link '>Notifications</Link>
                         <Link to="/" className='link '>Setting</Link>
-                    </div>
+                    </div> */}
                     <Col md={4}>
                         <div>
                             <ul className='noBullets'>

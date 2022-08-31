@@ -7,7 +7,7 @@ const AccountInfo = () => {
   return (
     <div>
       <Container className="bott-bg-img">
-        <Row className="margin-top-100-acc">
+        <Row className="margin-top-100-acc" style={{marginTop:"50px"}}>
           <Col md={4}></Col>
           <Col md={4}>
             <p className="black-head-cent-acc">Account Information</p>
