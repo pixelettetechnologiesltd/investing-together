@@ -38,7 +38,7 @@ const Navbar=()=> {
             <Link to="/howitworks " className="navitems">
               How does it work?
             </Link>
-            <Link to="/" className="navitems">
+            <Link to="/market-place" className="navitems">
               Marketplace
             </Link>
             <Link to="/company" className="navitems">

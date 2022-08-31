@@ -6,39 +6,33 @@ import { images } from '../../API/images'
 const Footer = () => {
     return (
         <div className='footerDiv'>
-            <Container fluid>
-                <Row className=''>
-                    <Col sm={12} md={6} style={{ display: "grid", justifyContent: "center" }}>
-                        <div style={{ marginTop: "20%" }}>
+            <Container>
+                <Row>
+                   <Col md={4} sm={12}  className='marg-top-120'>
                             <h2 className='footerCol1Heading'>
                                 We’d love to have you join us!
                             </h2>
-                        </div>
-                        <div className='mt-3'>
+                       
                             <p className='footerCol1Paragraph'>
                                 You didn't become a freelancer to spend hours every week hunched <br /> in front of your computer scrolling through endless job listings.
                             </p>
-                        </div>
-                        <div style={{ marginTop: "10%" }}>
+                       
                             <p className='socialMedia'>
                                 SOCIAL MEDIA
                             </p>
-                        </div>
-                        <div className='mt-3'>
-                            <span style={{ display: "flex", justifyContent: "space-evenly" }}>
+                   
+                        <div className='set-social-icons'>
+                            <span style={{ display: "flex", justifyContent: "space-around" }}>
                                 <Image src={images.facebook} />
                                 <Image src={images.twitter} />
                                 <Image src={images.insta} />
                                 <Image src={images.youtube} />
                             </span>
                         </div>
-                        <div style={{ marginTop: "55%" }}>
-                            <p className='copyright'>
-                                Copyright © 2021 pixelettetech.co.uk
-                            </p>
-                        </div>
+                       
                     </Col>
-                    <Col sm={12} md={6} style={{ display: "grid", justifyContent: "center" }}>
+                    <Col md={4}></Col>
+                    <Col sm={12} md={4} style={{ display: "grid", justifyContent: "start" }}>
                         <div >
                             <div style={{ marginTop: "35%" }}>
                                 <h2 className='footerCol2Heading'>
@@ -66,8 +60,21 @@ const Footer = () => {
                                 </Button>
                             </Form>
                         </div>
-                        <div style={{ marginTop: "55%" }}>
+                        
+                       
+                    </Col>
+                </Row>
+                <Row className='marg-top-foot-100 pb-3'>
+                    <Col md={6}>
+                    <div>
                             <p className='copyright'>
+                                Copyright © 2021 pixelettetech.co.uk
+                            </p>
+                        </div>
+                    </Col>
+                    <Col md={6}>
+                    <div>
+                            <p className='copyright-left'>
                                 Created by Pixelette Technologies
                             </p>
                         </div>
