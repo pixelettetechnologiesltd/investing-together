@@ -15,7 +15,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MarketPlace } from "./Pages/MarketPlace";
 import Wallet from "../src/Pages/Wallet"
 import Settings from "../src/Pages/Settings"
-
 import { Profile } from "./Pages/Profile";
 import { Notification } from "./Pages/Notification";
 function App() {
@@ -46,11 +45,8 @@ function App() {
             <Route path="/faq" element={<Faq />}></Route>
             <Route path="/company" element={<Company />}></Route>
             <Route path="/aboutus" element={<AboutUs />}></Route>
-            <Route path="/howitworks" element={<Howitworks />}></Route>
             <Route path="/learningcenter" element={<LearningCenter />}></Route>
             <Route path="/learndetail" element={<LearnDetail />}></Route>
-            <Route path="market-place" element={<MarketPlace />} />
-            <Route path="/howitworks" element={<Howitworks />}></Route>
             <Route path="/account-info" element={<AccountInfo />}></Route>
             <Route path="/wallet" element={<Wallet/>}></Route>
             <Route path="/settings" element={<Settings/>}></Route>
