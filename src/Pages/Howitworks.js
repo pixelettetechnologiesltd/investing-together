@@ -78,12 +78,8 @@ const Howitworks = () => {
           <Image src={images.investNow} width="100%" />
         </Col>
         <Col md={4}></Col>
-
       </section>
       <Freeguide />
-      
-      
-      
       <section className="bg-color-faroz">
         <Container>
           <Row>
@@ -118,7 +114,6 @@ const Howitworks = () => {
       </Container>
       <BeforeFooter />
     </div>
-  
   );
 };
 

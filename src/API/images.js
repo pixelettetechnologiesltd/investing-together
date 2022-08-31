@@ -27,7 +27,7 @@ import sliderCard3 from "../assets/images/sliderCard3.png"
 import field from "../assets/images/field.png"
 import vidico from "../assets/images/vidico.png"
 import location from "../assets/images/location.png"
-import bar from    "../assets/images/Vector 331.png"
+import bar from "../assets/images/Vector 331.png"
 import grass from "../assets/images/Rectangle 11.png"
 import corn from "../assets/images/image 26 (Traced).png"
 import cotton from "../assets/images/cotton.png"
@@ -50,12 +50,18 @@ import investabout from "../assets/images/investabout.png"
 import investp from "../assets/images/investp.png"
 import learning from "../assets/images/learning.png"
 import learndetail from "../assets/images/learndetail.png"
+
 import bloomberg from "../assets/images/image 33 (Traced).png"
 import forbe from "../assets/images/image 34 (Traced).png"
 import techcrunch from "../assets/images/image 38 (Traced).png"
 import fox from "../assets/images/image 35 (Traced).png"
 import fortune from "../assets/images/image 36 (Traced).png"
 import amertide from "../assets/images/image 39 (Traced).png"
+
+import walletIcon from "../assets/images/walletIcon.png"
+
+
+
 export const images = {
 	amertide,
 	fortune,
@@ -105,6 +111,6 @@ export const images = {
 	abt3,
 	abt4,
 	abt5,
-	fire,users,msg,flag,culture,investabout,investp,learning,learndetail,
-
+	fire, users, msg, flag, culture, investabout, investp, learning, learndetail,
+	walletIcon,
 }

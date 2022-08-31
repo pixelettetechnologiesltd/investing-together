@@ -2,8 +2,18 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "../assets/css/Company.css";
 import { images } from "../API/images";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Company = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
   return (
     <div>
       <Container>
@@ -70,6 +80,44 @@ const Company = () => {
           </Col>
         </Row>
       </Container>
+      <div className="header" style={{ marginTop: "5%" }}>
+        <Container>
+          <div style={{ marginTop: "7%" }}>
+            <h3 className="MPH3">
+              Which is what our popular
+              <br /> customers are saying
+            </h3>
+            <div>
+              <p className="">
+                But I must explain to you how all this mistaken idea of
+                <br /> denouncing pleasure and praising pain was born.
+              </p>
+            </div>
+          </div>
+          <div>
+            <Slider {...settings}>
+              <div>
+                <Image src={images.sliderCard1} />
+              </div>
+              <div>
+                <Image src={images.sliderCard2} />
+              </div>
+              <div>
+                <Image src={images.sliderCard3} />
+              </div>
+              <div>
+                <Image src={images.sliderCard3} />
+              </div>
+              <div>
+                <Image src={images.sliderCard3} />
+              </div>
+              <div>
+                <Image src={images.sliderCard3} />
+              </div>
+            </Slider>
+          </div>
+        </Container>
+      </div>
       <section className="grey-light-bg">
         <Container>
           <Row>

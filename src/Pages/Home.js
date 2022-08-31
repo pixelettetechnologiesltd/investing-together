@@ -256,14 +256,8 @@ const Home = () => {
               </div>
             </Row>
             <Container>
-
-              
-            
-             
-              
-              <InvestTogather/>
+              <InvestTogather />
               <Whitepaper />
-
             </Container>
             <FarmerInvester />
           </div>

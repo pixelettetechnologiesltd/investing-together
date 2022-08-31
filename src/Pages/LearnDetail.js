@@ -5,7 +5,6 @@ import "../assets/css/LearnDetail.css"
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa'
 import InvestTogather from '../assets/components/InvestTogather'
 import BeforeFooter from '../assets/components/BeforeFooter'
-
 const LearnDetail = () => {
   return (
     <div>

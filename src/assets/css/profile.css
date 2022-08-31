@@ -1,0 +1,71 @@
+.linkDiv {}
+
+.linkButton {
+    background-color: #7DD9CA;
+}
+
+.mainDivImg {
+    height: 73px;
+    width: 206px;
+    left: 617px;
+    top: 193px;
+    border-radius: 2px;
+    padding: 10px 16px 10px 16px;
+}
+
+.link {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #303030;
+    border: none;
+    height: 40px;
+    width: 113px;
+    left: 370px;
+    top: 326px;
+    border-radius: 0px;
+    padding: 12px 12px 12px 24px;
+    /* margin-left: 1%; */
+    color: #303030;
+    text-decoration: none;
+}
+
+.noBullets {
+    list-style-type: none;
+}
+
+.listStyle {
+    margin-top: 25%;
+}
+
+.walletLink {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #303030;
+    background-color: #FDE9B0;
+    height: 52px;
+    width: 244px;
+    left: 598px;
+    text-decoration: none;
+    top: 838px;
+    border-radius: 1px;
+    padding: 16px 24px 16px 36px;
+
+}
+
+.notificationParagraph {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #8C8C8C;
+}
