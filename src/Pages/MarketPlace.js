@@ -204,6 +204,7 @@ export const MarketPlace = () => {
                     </div>
                 </Container >
             </div>
+            <Container>
             <Row className="mt-5">
                 <h3 className="section3Heading">How to Investing together</h3>
                 <div className="section6Di">
@@ -219,6 +220,7 @@ export const MarketPlace = () => {
             </Row>
             <InvestTogather />
             <Whitepaper />
+            </Container>
         </div >
     )
 }
