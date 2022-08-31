@@ -8,7 +8,7 @@ const Settings = () => {
   return (
     <div>
          <Container className='bott-bg-img'>
-        <Row className="margin-top-100-setting">
+        <Row className="margin-top-50-setting">
           <Col md={3}></Col>
           <Col md={6}>
             <p className="black-head-cent-setting">Please provide additional information to verify your identity.</p>
