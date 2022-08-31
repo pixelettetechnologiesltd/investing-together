@@ -39,26 +39,28 @@ const Footer = () => {
                                     Contact us
                                 </h2>
                             </div>
+                            <div className='set-form-field-footer'>
                             <Form className='footerForm'>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label className='footerCol1Paragraph'>Name</Form.Label>
-                                    <Form.Control type="text" name='name' placeholder="Sam Davis" />
+                                    <Form.Control style={{backgroundColor:"transparent"}} type="text" name='name' placeholder="Sam Davis" />
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" controlId="formBasicPassword">
                                     <Form.Label className='footerCol1Paragraph'>Email</Form.Label>
-                                    <Form.Control type="email" name='email' placeholder="samdavis@gmail.com" />
+                                    <Form.Control style={{backgroundColor:"transparent"}} type="email" name='email' placeholder="samdavis@gmail.com" />
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                     <Form.Label className='footerCol1Paragraph'>Your Message</Form.Label>
-                                    <Form.Control as="textarea" name='textarea' rows={3} />
+                                    <Form.Control style={{backgroundColor:"transparent"}} as="textarea" name='textarea' rows={3} />
                                 </Form.Group>
 
                                 <Button className='submitBtn' type="submit">
                                     Submit
                                 </Button>
                             </Form>
+                            </div>
                         </div>
                         
                        
