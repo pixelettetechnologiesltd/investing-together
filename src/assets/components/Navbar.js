@@ -52,7 +52,7 @@ const Navbar=()=> {
                 </Link>
               </div>
             </Link>
-            <Link to="/" className="navitems">
+            <Link to="/Resources" className="navitems">
               Resources <MdOutlineKeyboardArrowDown />
               <div className="submenu">
                 <Link to='/LearningCenter' className="submenu-item">
@@ -65,10 +65,10 @@ const Navbar=()=> {
             </Link>
           </div>
           <div className="nav-btn">
-            <Link to="/" className="logs">
+            <Link to="/Login" className="logs">
               Login
             </Link>
-            <Link to="/" className="logs">
+            <Link to="/Signup" className="logs">
               SignUp
             </Link>
           </div>

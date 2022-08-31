@@ -8,6 +8,7 @@
   justify-content: center;
   margin: 10px 0px 0px 165px;
   text-align: center;
+  color:#494949;
 }
 .learning {
   font-size: 20px;
@@ -16,6 +17,7 @@
 .more {
   font-size: 16px;
   font-weight: 400;
+  color:#494949;
 }
 .btn_learn {
   padding: 10px 24px 10px 24px;

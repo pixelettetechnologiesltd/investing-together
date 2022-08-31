@@ -1,9 +1,9 @@
 .footerDiv {
     background-color: #303030;
 }
-.form-control{
-width: 170% !important;
-/* background-color: transparent !important; */
+
+.set-form-field-footer>.footerForm{
+width: 180% !important;
 }
 .marg-top-foot-100{
     margin-top:60px !important;
