@@ -1,0 +1,122 @@
+.margin-top-100-wallet{
+    margin-top: 100px !important;
+}
+.black-head-cent-Wallet{
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color:#303030;
+}
+.wallet-button-sing{
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 18px 36px;
+    display: block;
+    margin-left:auto;
+}
+.button-wallet-page{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    padding:12px 36px;
+    background-color: #FDE9B0;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 50px !important;
+}
+.wallet-page-icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.green-bg-card{
+    padding: 50px 30px;
+    background-color: #7DD9CA;
+}
+.bal-text{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:#303030;
+}
+.ammount{
+    font-family: "Manrope";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    color:#303030;
+    margin: 100px 0px;
+}
+.black-bg-btn{
+    background-color: #303030;
+    border: none;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    text-align: center;
+    color:#8EE5D8;
+    padding: 15px 36px;
+    margin: 0px 10px;
+}
+.trans-bg-btn{
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    text-align: center;
+    color:#303030;
+    padding: 15px 36px;
+    margin: 0px 10px;
+}
+.flex-cent{
+    display: flex;
+    justify-content: center;
+}
+.withdraw-icon{
+    font-size: 25px;
+    margin-right:10px ;
+}
+.plus-icon{
+    font-size: 20px;
+    margin-right:10px ;
+}
+.marg-wallet-50{
+    margin-top:50px;
+}
+.grey-bg-card{
+    padding: 48px 30px;
+    background-color: #F6F6F6;
+}
+.trans-bg-btn-two{
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color:#303030;
+    padding: 15px 36px;
+    display: block;
+    margin: auto;
+}
+.bank-icon{
+    font-size: 20px;
+    margin: 0px 10px;
+}
+@media screen and (max-width:1000px) {
+    .grey-bg-card{
+        margin-top:20px;
+    }
+}
