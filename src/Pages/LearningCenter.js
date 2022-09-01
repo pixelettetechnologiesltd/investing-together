@@ -107,9 +107,7 @@ const LearningCenter = () => {
               </div>
               <div className="downloadBtnDi">
                 <div className="downloadBtnDiv mt-5">
-                  <button to="/" className="before-footer-btn set-btn-white">
-                    Start investing together
-                  </button>
+                <button className="download-guide-but" style={{marginTop:"0px"}}>Start Investing Togather</button>  
                   <span style={{ marginLeft: "20px" }}>
                     <button className="white-bg-btn" to="/">
                       FAQs

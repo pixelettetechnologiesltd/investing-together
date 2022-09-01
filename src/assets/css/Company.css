@@ -96,5 +96,7 @@
         width:150%;
         margin-top:40px !important;
     }
-   
+    .vision-desc{
+        padding-right: 0px;
+    }
 }

@@ -32,7 +32,7 @@ const Navbar=()=> {
             <Link to="/" className="navitems">
               Home
             </Link>
-            <Link to="/" className="navitems">
+            <Link to="/Whyinvesting" className="navitems">
               Why investing togerther?
             </Link>
             <Link to="/howitworks " className="navitems">
@@ -46,9 +46,6 @@ const Navbar=()=> {
               <div className="submenu">
                 <Link to="/aboutus" className="submenu-item">
                   About
-                </Link>
-                <Link to="/" className="submenu-item">
-                  Legal Documents
                 </Link>
               </div>
             </Link>
