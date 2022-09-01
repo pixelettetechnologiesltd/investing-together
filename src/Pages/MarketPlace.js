@@ -132,7 +132,7 @@ export const MarketPlace = () => {
                         {
                             slides.map(slide =>
                                 <Col md={4} className="mt-4">
-                                    <Card className='sliderCard' style={{ width: '25rem', border: "none" }}>
+                                    <Card className='sliderCard' style={{ border: "none" }}>
                                         <Card.Img variant="top" src={slide.img} />
                                         <Card.Body bg="dark" style={{ background: "#303030" }}>
                                             <Card.Title className='slideTitle' style={{ color: "#4BBDAB" }}>{slide.name}

@@ -43,8 +43,8 @@ const AboutUs = () => {
           </Col>
           <Col md={4}>
             <div className="make-col-flex">
-              <Image className="marg-top-at-mbl" src={images.abt4} width="84%"/>
-              <Image src={images.abt5} style={{ marginTop: "25px" }} width="84%" />
+              <Image className="marg-top-at-mbl align-img-right" src={images.abt4} width="84%"/>
+              <Image className="align-img-right" src={images.abt5} style={{ marginTop: "25px" }} width="84%" />
             </div>
           </Col>
         </Row>
@@ -76,7 +76,7 @@ const AboutUs = () => {
         </Row>
         <Row className="margin-top-100">
           <Col md={6}>
-            <Image src={images.investabout}/>
+            <Image className="image-mbl-wid-set" src={images.investabout}/>
           </Col>
           <Col md={1}></Col>
           <Col md={5}>
@@ -149,7 +149,7 @@ const AboutUs = () => {
         <Row>
           <Col md={3}></Col>
           <Col md={6}>
-            <p className="black-head-center"> How to Investing together</p>
+            <p className="black-head-center mab-margin-top-set"> How to Investing together</p>
             <p className="desc-for-white-bg-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
           </Col>
           <Col md={3}></Col>

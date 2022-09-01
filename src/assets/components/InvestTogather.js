@@ -65,7 +65,7 @@ const InvestTogather = () => {
                             </div>
                         </div>
                     </div>
-                    <Image className='height-set mt-4' src={images.invest5} width="100%"/>
+                    <Image className='height-set mt-4 ' src={images.invest5} width="100%"/>
                     <div className='invest-black-bg'>
                         <p className='invest-head-left'>The title of the blog will go here, either one or two lines </p>
                         <div className='invest-flex-row-just-cent'>

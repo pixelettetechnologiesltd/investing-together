@@ -155,4 +155,13 @@
         height: 100vh;
         margin-bottom:250px !important;
     }
+    .align-img-right{
+        width: 100%;
+    }
+    .image-mbl-wid-set{
+        width: 100%;
+    }
+    .mab-margin-top-set{
+        margin-top:130px;
+    }
 }
