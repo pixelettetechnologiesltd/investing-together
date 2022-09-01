@@ -26,7 +26,7 @@ const WhitePaper = () => {
             <Image className="img-wid-mbl" src={images.whitePaper} />
           </Col>
         </Row>
-        <Row style={{marginTop:"100px"}}>
+        <Row style={{ marginTop: "100px" }}>
           <Col md={6} className="mt-5">
             <div
               style={{

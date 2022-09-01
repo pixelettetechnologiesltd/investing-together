@@ -97,22 +97,22 @@ const Company = () => {
           <div>
             <Slider {...settings}>
               <div>
-                <Image src={images.sliderCard1} />
+                <Image src={images.sliderCard1} style={{ width: "100%" }} />
               </div>
               <div>
-                <Image src={images.sliderCard2} />
+                <Image src={images.sliderCard2} style={{ width: "100%" }} />
               </div>
               <div>
-                <Image src={images.sliderCard3} />
+                <Image src={images.sliderCard3} style={{ width: "100%" }} />
               </div>
               <div>
-                <Image src={images.sliderCard3} />
+                <Image src={images.sliderCard3} style={{ width: "100%" }} />
               </div>
               <div>
-                <Image src={images.sliderCard3} />
+                <Image src={images.sliderCard3} style={{ width: "100%" }} />
               </div>
               <div>
-                <Image src={images.sliderCard3} />
+                <Image src={images.sliderCard3} style={{ width: "100%" }} />
               </div>
             </Slider>
           </div>

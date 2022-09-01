@@ -28,7 +28,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6">
-              <div className="sliderDiv">
+              <div className="sliderDiv mt-5">
                 <p className="sliderParagraph">
                   “Lorem Ipsum is simply dummy text of the printing and <br />
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -170,14 +170,14 @@ const Home = () => {
               className="section3ImgDiv"
               style={{ justifyContent: "flex-start" }}
             >
-              <Image src={images.farm} />
+              <Image src={images.farm}/>
             </Col>
           </Row>
         </Container>
         <div>
           <Row className="" style={{ marginTop: "5%" }}>
-            <Col md={12} lg={12}>
-              <Image className="imageTagInvest" src={images.investNow} />
+            <Col md={6} lg={6} sm={12}>
+              <Image className="imageTagInvest" src={images.investNow} style={{width:"100%"}} />
             </Col>
             {/* <Col md={6}></Col> */}
           </Row>

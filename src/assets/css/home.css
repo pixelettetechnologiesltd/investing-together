@@ -2,6 +2,9 @@
   font-family: myFirstFont;
   src: url(MondiaThin.otf);
 }
+.main{
+  overflow: hidden;
+}
 body{
   overflow-x: hidden;
 }
