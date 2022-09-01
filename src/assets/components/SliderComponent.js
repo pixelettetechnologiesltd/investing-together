@@ -66,7 +66,7 @@ export const SliderComponent = () => {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
-        cssEase: "linear"
+        cssEase: "linear",
         // dots: true,
         // className: "center",
         // centerMode: true,
@@ -77,32 +77,32 @@ export const SliderComponent = () => {
         // speed: 3000,
         // autoplaySpeed: 3000,
         // // cssEase: "linear",
-        // responsive: [
-        //     {
-        //         breakpoint: 1024,
-        //         settings: {
-        //             slidesToShow: 3,
-        //             slidesToScroll: 3,
-        //             infinite: true,
-        //             dots: true
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 600,
-        //         settings: {
-        //             slidesToShow: 2,
-        //             slidesToScroll: 2,
-        //             initialSlide: 2
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 480,
-        //         settings: {
-        //             slidesToShow: 1,
-        //             slidesToScroll: 1
-        //         }
-        //     }
-        // ]
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
     return (
         <div style={{ margin: "0px 2%" }}>
@@ -113,7 +113,7 @@ export const SliderComponent = () => {
                 {
                     slides.map(slide =>
                         <div>
-                            <Card className='sliderCard' style={{ width:"22rem", border: "none", backgroundColor: "#7DD9CA" }}>
+                            <Card className='sliderCard' style={{ width: "22rem", border: "none", backgroundColor: "#7DD9CA" }}>
                                 <Card.Img variant="top" src={slide.img} />
                                 <Card.Body bg="dark" style={{ background: "#303030" }}>
                                     <Card.Title className='slideTitle' style={{ color: "#4BBDAB" }}>{slide.name}</Card.Title>

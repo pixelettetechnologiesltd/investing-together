@@ -98,7 +98,33 @@ export const MarketPlace = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
     return (
         <div className='main'>
@@ -145,7 +171,7 @@ export const MarketPlace = () => {
                                                     </p>
                                                 </div>
                                             </Card.Text>
-                                            <div style={{ border: "#4BBDAB 1px solid", backgroundColor:"#4BBDABFF" }}>
+                                            <div style={{ border: "#4BBDAB 1px solid", backgroundColor: "#4BBDABFF" }}>
                                             </div>
                                             <div className='mt-3'>
                                                 <p className='cardBodyText' style={{ color: "#4BBDAB" }}>
@@ -183,43 +209,43 @@ export const MarketPlace = () => {
                     <div>
                         <Slider {...settings}>
                             <div>
-                                <Image src={images.sliderCard1} />
+                                <Image src={images.sliderCard1} style={{ width: "100%" }} />
                             </div>
                             <div>
-                                <Image src={images.sliderCard2} />
+                                <Image src={images.sliderCard2} style={{ width: "100%" }} />
                             </div>
                             <div>
-                                <Image src={images.sliderCard3} />
+                                <Image src={images.sliderCard3} style={{ width: "100%" }} />
                             </div>
                             <div>
-                                <Image src={images.sliderCard3} />
+                                <Image src={images.sliderCard3} style={{ width: "100%" }} />
                             </div>
                             <div>
-                                <Image src={images.sliderCard3} />
+                                <Image src={images.sliderCard3} style={{ width: "100%" }} />
                             </div>
                             <div>
-                                <Image src={images.sliderCard3} />
+                                <Image src={images.sliderCard3} style={{ width: "100%" }} />
                             </div>
                         </Slider>
                     </div>
                 </Container >
             </div>
             <Container>
-            <Row className="mt-5">
-                <h3 className="section3Heading">How to Investing together</h3>
-                <div className="section6Di">
-                    <p className="section3Paragraph">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting <br />
-                        industry. Lorem Ipsum has been the industry's standard dummy
-                        text ever
-                        <br />
-                        since the 1500s, when an unknown printer.
-                    </p>
-                </div>
-            </Row>
-            <InvestTogather />
-            <Whitepaper />
+                <Row className="mt-5">
+                    <h3 className="section3Heading">How to Investing together</h3>
+                    <div className="section6Di">
+                        <p className="section3Paragraph">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting <br />
+                            industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever
+                            <br />
+                            since the 1500s, when an unknown printer.
+                        </p>
+                    </div>
+                </Row>
+                <InvestTogather />
+                <Whitepaper />
             </Container>
         </div >
     )
