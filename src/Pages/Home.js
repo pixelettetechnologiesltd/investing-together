@@ -170,14 +170,14 @@ const Home = () => {
               className="section3ImgDiv"
               style={{ justifyContent: "flex-start" }}
             >
-              <Image src={images.farm}/>
+              <Image src={images.farm} />
             </Col>
           </Row>
         </Container>
         <div>
           <Row className="" style={{ marginTop: "5%" }}>
             <Col md={6} lg={6} sm={12}>
-              <Image className="imageTagInvest" src={images.investNow} style={{width:"100%"}} />
+              <Image className="imageTagInvest" src={images.investNow} style={{ width: "100%" }} />
             </Col>
             {/* <Col md={6}></Col> */}
           </Row>
@@ -188,7 +188,7 @@ const Home = () => {
         >
           <Row>
             <Col sm={12} md={6} className="section5Col1 mt-5">
-              <div>
+              <div className="section5Div">
                 <h3 className="section5Heading">
                   There are many variations
                   <br /> of passages of Lorem <br /> Ipsum available, but the
@@ -200,7 +200,7 @@ const Home = () => {
               </div>
             </Col>
             <Col sm={12} md={6} className="section5Col2">
-              <div style={{ marginTop: "10%" }}>
+              <div className="section5Div" style={{ marginTop: "10%" }}>
                 <p className="section5Paragraph">
                   There are many variations of passages of Lorem Ipsum
                   <br />
