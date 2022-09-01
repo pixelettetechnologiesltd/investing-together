@@ -40,7 +40,7 @@ const Resources = () => {
       <h3 className="faq_heading">Frequently Asked Questions</h3>
       <FAQ/>
       </Container>
-      <Container>
+      <Container style={{ marginBottom: "100px" }}> 
       <Row style={{ marginTop: "100px" }}>
         <Col md={6} className="mt-5">
           <div
@@ -61,9 +61,7 @@ const Resources = () => {
             </div>
             <div className="downloadBtnDi">
               <div className="downloadBtnDiv mt-5">
-                <button className="before-footer-btn">
-                  Start Investing Togather
-                </button>
+
                 <span style={{ marginLeft: "20px" }}>
                   <button className="download-guide-but">FAQ's</button>
                 </span>

@@ -73,7 +73,10 @@
       display: flex;
     }
     .padding-right-130{
-      padding-right: 0px;
+      padding-right: 0px !important ;
+    }
+    .set-padd-for-mbl{
+      padding: 50px !important;
     }
     .img-wid-mbl{
       margin-top:50px;

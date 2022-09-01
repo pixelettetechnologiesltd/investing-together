@@ -28,7 +28,7 @@ const WhitePaper = () => {
         </Row>
         <Row style={{marginTop:"100px"}}>
           <Col md={6} className="mt-5">
-            <div
+            <div className="set-padd-for-mbl"
               style={{
                 display: "grid",
                 justifyContent: "center",
@@ -46,9 +46,7 @@ const WhitePaper = () => {
               </div>
               <div className="downloadBtnDi">
                 <div className="downloadBtnDiv mt-5">
-                  <button className="before-footer-btn">
-                    Start Investing Togather
-                  </button>
+                  <button className="download-guide-but">Start Investing Togather</button>
                   <span style={{ marginLeft: "20px" }}>
                     <button className="download-guide-but">FAQ's</button>
                   </span>
