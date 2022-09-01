@@ -32,7 +32,7 @@ const Navbar=()=> {
             <Link to="/" className="navitems">
               Home
             </Link>
-            <Link to="/Whyinvesting" className="navitems">
+            <Link to="/Why-investing-together" className="navitems">
               Why investing togerther?
             </Link>
             <Link to="/howitworks " className="navitems">
