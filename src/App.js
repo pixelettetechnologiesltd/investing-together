@@ -27,19 +27,8 @@ function App() {
             <Route path="/howitworks" element={<Howitworks />}></Route>
             <Route path="/why-investing-togerther" element={<Whyinvesting />}></Route>
             <Route path="/marketPlace-detail" element={<MarketplaceDetail />}></Route>
-            <Route
-              path="/why-investing-togerther"
-              element={<Whyinvesting />}
-            ></Route>
-            <Route
-              path="/marketPlace-detail"
-              element={<MarketplaceDetail />}
-            ></Route>
             <Route path="/resources" element={<Resources />}></Route>
             <Route path="/faq" element={<Faq />}></Route>
-            <Route path="/resources" element={<Resources />}></Route>
-            <Route path="/faq" element={<Faq />}></Route>
-            <Route path="/resources" element={<Resources />}></Route>
             <Route path="/company" element={<Company />}></Route>
             <Route path="/aboutus" element={<AboutUs />}></Route>
             <Route path="/learningcenter" element={<LearningCenter />}></Route>
@@ -47,19 +36,11 @@ function App() {
             <Route path="/contact-us" element={<Contactus />}></Route>
             <Route path="/login" element={<Login />}></Route>
             <Route path="/signup" element={<Signup />}></Route>
-            <Route
-              path="/why-investing-togerther"
-              element={<wInvesting />}
-            ></Route>
             <Route path="/profile" element={<Profile />} />
             <Route path="market-place" element={<MarketPlace />} />
             <Route path="/contact-us" element={<Contactus />}></Route>
             <Route path="/login" element={<Login />}></Route>
             <Route path="/signup" element={<Signup />}></Route>
-            <Route path="/why-investing-togerther" element={<wInvesting />}></Route>
-            <Route path="market-place" element={<MarketPlace />} />
-            <Route path="/howitworks" element={<Howitworks />}></Route>
-            <Route path="/profile" element={<Profile />} />
           </Route>
         </Routes>
       </BrowserRouter>

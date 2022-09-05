@@ -7,7 +7,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { GoThreeBars } from "react-icons/go";
 import { ImCross } from "react-icons/im";
 
-const Navbar=()=> {
+const Navbar = () => {
   const [toggle, setToggle] = useState(true);
   const [nav, setNav] = useState(true);
   const handleToggle = () => {
@@ -15,7 +15,10 @@ const Navbar=()=> {
     setNav(!nav);
   };
   return (
-    <div className="container-fluid" style={{backgroundColor:"#7DD9CA", padding:"0px 100px"}}>
+    <div
+      className="container-fluid"
+      style={{ backgroundColor: "#7DD9CA", padding: "0px 100px" }}
+    >
       <div className="nav-bar">
         <span className="toggle-btn" onClick={handleToggle}>
           {toggle ? <GoThreeBars /> : <ImCross />}
@@ -32,7 +35,7 @@ const Navbar=()=> {
             <Link to="/" className="navitems">
               Home
             </Link>
-            <Link to="/Why-investing-together" className="navitems">
+            <Link to="/why-investing-togerther" className="navitems">
               Why investing togerther?
             </Link>
             <Link to="/howitworks " className="navitems">
@@ -52,7 +55,7 @@ const Navbar=()=> {
             <Link to="/Resources" className="navitems">
               Resources <MdOutlineKeyboardArrowDown />
               <div className="submenu">
-                <Link to='/LearningCenter' className="submenu-item">
+                <Link to="/LearningCenter" className="submenu-item">
                   Learning
                 </Link>
                 <Link to="/Faq  " className="submenu-item">
